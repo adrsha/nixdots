@@ -122,7 +122,7 @@
     bind =
       [
       "$m, return, exec, alacritty"
-        "$m SHIFT, b, exec, firefox"
+        "$m SHIFT, b, exec, zen"
         "$m, Q, killactive, "
         "$m, END, exit, "
         "$m SHIFT, END, exec, poweroff"
