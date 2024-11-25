@@ -33,14 +33,9 @@
         wget
         git
         gcc      
+	lsd
         wl-clipboard-rs
-        vulkan-tools
-        vulkan-loader
-        vulkan-validation-layers
         libGLU
-        glxinfo
-        radeontop
-        supergfxctl
         file
         llvmPackages_latest.clang-tools
         llvmPackages_latest.libcxx

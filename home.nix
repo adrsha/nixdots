@@ -12,56 +12,134 @@
   home.username = "chilly";
   home.homeDirectory = "/home/chilly";
 
-  home.packages = [
-    # # Adds the 'hello' command to your environment. It prints a friendly
-    # # "Hello, world!" when run.
-    # pkgs.hello
+  home.packages = with pkgs; [
+    tldr
 
-    # # It is sometimes useful to fine-tune packages, for example, by applying
-    # # overrides. You can do that directly here, just don't forget the
-    # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
-    # # fonts?
-    # (pkgs.nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
+# System Utilities
+    blueberry
+      brightnessctl
+      dunst
+      gnumake
+      nix-search-cli
+      xorg.xset
+      udiskie
+      libnotify
+      killall
 
-    # # You can also create simple shell scripts directly inside your
-    # # configuration. For example, this adds a command 'my-hello' to your
-    # # environment:
-    # (pkgs.writeShellScriptBin "my-hello" ''
-    #   echo "Hello, ${config.home.username}!"
-    # '')
+# System Monitoring
+      btop
+      neofetch
+
+# Terminal Utilities
+      alacritty
+      fzf
+      fd
+      bat
+      ripgrep
+      zoxide
+      lsd
+      clipse
+
+# Development Tools
+      cargo
+      cmake
+      ninja
+      python3
+      python312Packages.numpy
+
+# Programming Languages and Toolchains
+      flutter
+
+# Language Servers
+      vscode-langservers-extracted
+      cpplint
+      lua-language-server
+      clang
+      pyright
+      typescript-language-server
+      nil
+      jq-lsp
+      bash-language-server
+      rust-analyzer
+
+# Plugins
+      fishPlugins.tide
+
+# Qt and UI Libraries
+      qt5.full
+      inputs.prism.packages.${system}.default
+
+# Desktop Environment Tools
+      ags
+      hyprpicker
+      grim
+      slurp
+      playerctl
+
+# Multimedia
+      mpv
+
+# Compression and Archiving
+      unzip
+
+# Browsers and Internet
+      firefox
+      qbittorrent
+
+# Game Engines
+      godot_4
   ];
 
-  # Home Manager is pretty good at managing dotfiles. The primary way to manage
-  # plain files is through 'home.file'.
-  home.file = {
-    # # Building this configuration will create a copy of 'dotfiles/screenrc' in
-    # # the Nix store. Activating the configuration will then make '~/.screenrc' a
-    # # symlink to the Nix store copy.
-    # ".screenrc".source = dotfiles/screenrc;
+  programs.fish = {
+    enable = true;
 
-    # # You can also set the file content immediately.
-    # ".gradle/gradle.properties".text = ''
-    #   org.gradle.console=verbose
-    #   org.gradle.daemon.idletimeout=3600000
-    # '';
+    interactiveShellInit = ''
+      set -U fish_greeting
+      export GBM_BACKEND=amdgpu;
+      export GDK_SCALE="1";
+      export HYRCURSOR_SIZE="24";
+      export HYRCURSOR_THEME="Bibata-Modern_Classic";
+      export HYRCURSOR_TRACE="1";
+      export MOZ_ENABLE_WAYLAND="1";
+      export NIXOS_OZONE_WL="1";
+      export QT_PLUGIN_PATH="${pkgs.qt5.qtbase.bin}/lib/qt-5/plugins";
+      export QT_QPA_PLATFORM="wayland;xcb";
+      export QT_QPA_PLATFORMTHEME="qt6ct";
+      export RUST_BACKTRACE="full";
+      export FZF_DEFAULT_OPTS="--height=80% --layout=reverse --info=inline --border --margin=1 --padding=1 --wrap --gap=1 --no-separator --pointer=✦ --color=16 --color='gutter:-1,fg+:2,fg:7'";
+      export WLR_DRM_DEVICES="/dev/dri/card1:/dev/dri/card0";  
+      export WLR_DRM_NO_ATOMIC="1";
+      export XCURSOR_SIZE="24";
+      export XDG_CONFIG_HOME="$HOME/.config";
+      export XDG_CURRENT_DESKTOP="Hyprland";
+      export XDG_SESSION_DESKTOP="Hyprland";
+      export XDG_SESSION_TYPE="wayland";
+
+      fish_vi_key_bindings
+
+      set fish_cursor_insert line
+      set fish_cursor_default block
+      set fish_cursor_visual block
+
+      function ni
+        nix-search $argv | fzf | awk '{print $1}' | while read -l package;
+              nix-env -iA "nixos.$package" || nix-env -iA "nixpkgs.$package" || echo "Package $package not found in nixpkgs or nixos.";
+            end
+      end
+
+      function fish_user_key_bindings
+      bind -M insert jk "if commandline -P; commandline -f cancel; else; set fish_bind_mode default; commandline -f backward-char force-repaint; end"
+      end
+
+      zoxide init fish --cmd c| source
+      '';
   };
 
-  # Home Manager can also manage your environment variables through
-  # 'home.sessionVariables'. These will be explicitly sourced when using a
-  # shell provided by Home Manager. If you don't want to manage your shell
-  # through Home Manager then you have to manually source 'hm-session-vars.sh'
-  # located at either
-  #
-  #  ~/.nix-profile/etc/profile.d/hm-session-vars.sh
-  #
-  # or
-  #
-  #  ~/.local/state/nix/profiles/profile/etc/profile.d/hm-session-vars.sh
-  #
-  # or
-  #
-  #  /etc/profiles/per-user/chilly/etc/profile.d/hm-session-vars.sh
-  #
+  home.file."${config.xdg.configHome}/lsd" = {
+    source = ./lsd;
+    recursive = true;
+  };
+
   home.sessionVariables = {
     EDITOR = "nvim";
   };
@@ -73,7 +151,6 @@
   # want to update the value, then make sure to first check the Home Manager
   # release notes.
   home.stateVersion = "24.05"; # Please read the comment before changing.
-
 
 
   # Let Home Manager install and manage itself.
