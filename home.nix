@@ -67,7 +67,6 @@
 
 # Qt and UI Libraries
       qt5.full
-      inputs.prism.packages.${system}.default
 
 # Desktop Environment Tools
       ags
