@@ -37,7 +37,7 @@
     homeConfigurations."chilly" = inputs.home-manager.lib.homeManagerConfiguration {
        inherit pkgs;
 
-       extraSpecialArfs = {inherit inputs;};
+       extraSpecialArgs = {inherit inputs;};
        modules = [ ./home.nix ];
 
      };
