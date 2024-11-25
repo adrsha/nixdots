@@ -26,19 +26,94 @@
      ];
    };
 
- 
+  environment = {
+    systemPackages = with pkgs; [
+      neovim 
+        curl
+        wget
+        git
+        gcc      
+        wl-clipboard-rs
+        vulkan-tools
+        vulkan-loader
+        vulkan-validation-layers
+        libGLU
+        glxinfo
+        radeontop
+        supergfxctl
+        file
+        llvmPackages_latest.clang-tools
+        llvmPackages_latest.libcxx
+        lua53Packages.jsregexp
+    ];
+    shellAliases = {
+      cp = "cp -ir";
+      mv = "mv -i";
+      mkdir = "mkdir -p";
+      l = "lsd -L";
+      ls = "lsd -L";
+      la = "lsd -A";
+      ll = "lsd -lA --date relative --sort git";
+      lt = "lsd --tree";
+      lr = "lsd -R";
+      f = "cd $(fd ~ | fzf)";
+      o = "~/Scripts/launch";
+      n = "nvim";
+      t = "nvim ~/Notes/todo.md";
+      nc = "nvim ~/flakes/";
+      nm = "sudo nmtui";
+      ns = "nix-search -dr";
+      ins = "nix-env -iA";
+      uni = "nix-env --uninstall";
+      rr = "sudo nixos-rebuild switch --flake $HOME/flakes/ && home-manager switch --flake ~/flakes/";
+      nr = "sudo nixos-rebuild switch --flake $HOME/flakes/";
+      hr = "home-manager switch --flake $HOME/flakes/";
+      gpush = "cat ~/Documents/gittoken | wl-copy; git push origin $(git branch --show-current)";
+    };
+  };
+
   # PROGRAMS
   programs.hyprland.enable = true;
   programs.fish.enable = true;
   programs.npm.enable = true;
-
-  environment.systemPackages = with pkgs; [
-     wget
-     neovim
-     git
-     curl
-  ];
-
+  programs.nix-ld.enable = true;
+  programs.nix-ld.libraries = with pkgs; [
+    at-spi2-core
+      boost
+      cairo
+      udisks
+      curl
+      dbus
+      fmt
+      fuse3
+      glib
+      glibc
+      graphite2
+      gtk3
+      gtk3-x11
+      harfbuzz
+      libdbusmenu-gtk3
+      libepoxy
+      libselinux
+      libsepol
+      libstdcxx5
+      libxkbcommon
+      openssl                                                                                                                                                                                                                           
+      pango
+      pcre
+      qt5.qtbase
+      qt5.qtwayland
+      stdenv.cc.cc
+      stdenv.cc.cc.lib
+      util-linux
+      xorg.libX11
+      xorg.libXcursor                                                                                                                                                                                                                   
+      xorg.libXdmcp
+      xorg.libXi                                                                                                                                                                                                                        
+      xorg.libXtst
+      xorg.libxcb                                                                                                                                                                                                                       
+      zlib
+      ];
 
   nix.settings = {
      experimental-features = ["nix-command" "flakes"];

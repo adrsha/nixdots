@@ -34,7 +34,7 @@
       };
     };
 
-    homeConfigurations."chilly" = home-manager.lib.homeManagerConfiguration {
+    homeConfigurations."chilly" = inputs.home-manager.lib.homeManagerConfiguration {
        inherit pkgs;
 
        extraSpecialArfs = {inherit inputs;};
