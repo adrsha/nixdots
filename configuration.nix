@@ -110,6 +110,10 @@
       zlib
       ];
 
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "JetBrainsMono" "Iosevka" ]; })
+  ];
+
   nix.settings = {
      experimental-features = ["nix-command" "flakes"];
   };

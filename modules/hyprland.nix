@@ -60,9 +60,6 @@
       rounding = "20";
       active_opacity = "1.0";
       inactive_opacity = "1.0";
-      drop_shadow = "false";
-      shadow_render_power = "5";
-      "col.shadow" = "rgba(0609094a)";
       dim_inactive = "true";
       dim_strength = "0.2";
 

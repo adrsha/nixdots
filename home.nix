@@ -82,7 +82,7 @@
       unzip
 
 # Browsers and Internet
-      firefox
+      inputs.zen-browser.packages."${system}".default
       qbittorrent
 
 # Game Engines
