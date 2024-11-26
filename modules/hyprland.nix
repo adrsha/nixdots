@@ -36,7 +36,7 @@
     exec-once = [
       "ags"
       "udiskie"
-      "clipse -listen"
+      "clipse -wl-store"
     ];
     
     general = {

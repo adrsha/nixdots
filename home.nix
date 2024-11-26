@@ -18,7 +18,6 @@
 # System Utilities
     blueberry
       brightnessctl
-      dunst
       gnumake
       nix-search-cli
       xorg.xset
@@ -32,6 +31,7 @@
 
 # Terminal Utilities
       alacritty
+      wezterm
       fzf
       fd
       bat
@@ -45,7 +45,6 @@
       cmake
       ninja
       python3
-      python312Packages.numpy
 
 # Programming Languages and Toolchains
       flutter
