@@ -31,7 +31,6 @@
 
 # Terminal Utilities
       alacritty
-      wezterm
       fzf
       fd
       bat
@@ -60,6 +59,7 @@
       jq-lsp
       bash-language-server
       rust-analyzer
+      rnixlsp
 
 # Plugins
       fishPlugins.tide
@@ -69,6 +69,7 @@
 
 # Desktop Environment Tools
       ags
+      swww
       hyprpicker
       grim
       slurp
@@ -76,6 +77,7 @@
 
 # Multimedia
       mpv
+      imv
 
 # Compression and Archiving
       unzip

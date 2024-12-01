@@ -36,14 +36,16 @@
       };
     };
 
-    homeConfigurations."chilly" = inputs.home-manager.lib.homeManagerConfiguration {
-      inherit pkgs;
-
-      extraSpecialArgs = {inherit inputs;};
-      modules = [ ./home.nix ];
-
-    };
-
-  };
+  # NOT a fan
+    
+  #   homeConfigurations."chilly" = inputs.home-manager.lib.homeManagerConfiguration {
+  #     inherit pkgs;
+  #
+  #     extraSpecialArgs = {inherit inputs;};
+  #     modules = [ ./home.nix ];
+  #
+  #   };
+  #
+  # };
 
 }

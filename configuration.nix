@@ -67,6 +67,7 @@
       ns = "nix-search -dr";
       ins = "nix-env -iA";
       uni = "nix-env --uninstall";
+      runc = "make main && ./main";
       rr = "sudo nixos-rebuild switch --flake $HOME/flakes/ && home-manager switch --flake ~/flakes/";
       nr = "sudo nixos-rebuild switch --flake $HOME/flakes/";
       hr = "home-manager switch --flake $HOME/flakes/";

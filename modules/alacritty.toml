@@ -1,0 +1,112 @@
+
+[window]
+
+opacity = 1
+
+padding.x = 40
+padding.y = 10
+
+decorations = "None"
+decorations_theme_variant = "None" # "Dark"
+
+[scrolling]
+history = 10000
+multiplier = 4
+
+[font]
+
+# normal = { family = "MeowSansNerd", style = "Regular"}
+# normal = { family = "Martian Mono Nerd Font", style = "Medium"}
+# normal = { family = "Iosevka Nerd Font", style = "SemiBold"}
+
+normal = { family = "JetBrains Mono NFM", style = "SemiBold"}
+bold = { family = "JetBrains Mono NFM", style = "ExtraBold"}
+italic = { family = "JetBrains Mono NFM", style = "Italic"}
+bold_italic = { family = "JetBrains Mono NFM", style = "ExtraBold Italic"}
+
+# normal = { family = "FantasqueSansM Nerd Font Mono", style = "SemiBold"}
+size = 12.0
+offset.x = 0
+offset.y = 2
+glyph_offset.x = 0
+glyph_offset.y = 0
+
+#
+# [colors.primary]
+# background = "#20202A"
+# foreground = "#63718B"
+# bright_foreground = "#a0a8b6"
+# dim_foreground = "#4c5664"
+#
+# [colors.cursor]
+# cursor = "#b8dceb"
+# text= '#20202a'
+#
+# [colors.vi_mode_cursor]
+# cursor = "#E8CCA7"
+#
+# [colors.bright]
+# black=   '#3b3b4d'
+# red=     '#cc9b9d'
+# green=   '#a3ccad'
+# yellow=  '#d1ba97'
+# blue=    '#B8C9EA'
+# magenta= '#c497b3'
+# cyan=    '#95C2D1'
+# white=   '#63718B'
+#
+# [colors.normal]
+# black=   '#44495E'
+# red=     '#ebb9b9'
+# green=   '#caf6bb'
+# yellow=  '#ebe3b9'
+# blue=    '#cddbf9'
+# magenta= '#f6bbe7'
+# cyan=    '#b8dceb'
+# white=   '#C6D0E9'
+
+[colors]
+draw_bold_text_with_bright_colors = true
+transparent_background_colors = false
+
+
+# Default colors
+[colors.primary]
+background = '0x141b1e'
+foreground =  '0xdadada'
+
+[colors.cursor]
+text = '0xdadada'
+cursor = '0xdadada'
+
+# Normal colors
+[colors.normal]
+black =   '0x232a2d'
+red =     '0xe57474'
+green =   '0x8ccf7e'
+yellow =  '0xe5c76b'
+blue =     '0x67b0e8'
+magenta = '0xc47fd5'
+cyan =    '0x6cbfbf'
+white =   '0xb3b9b8'
+
+# Bright colors
+[colors.bright]
+black =   '0x2d3437'
+red =     '0xef7e7e'
+green =   '0x96d988'
+yellow =  '0xf4d67a'
+blue =    '0x71baf2'
+magenta = '0xce89df'
+cyan =    '0x67cbe7'
+white =   '0xbdc3c2'
+
+[cursor]
+style.shape = "Beam" 
+style.blinking = "Off" 
+thickness = 0.15
+unfocused_hollow = false
+
+[mouse]
+hide_when_typing = true
+
