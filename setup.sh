@@ -30,3 +30,15 @@ if [ ! -f ~/.config/alacritty/alacritty.toml ]; then
   ln -sf ~/flakes/modules/alacritty.toml ~/.config/alacritty/alacritty.toml
 fi
 
+# fish
+if [ ! -f ~/.config/fish/config.fish ]; then
+  echo "Setting up fish"
+  if [ ! -d ~/.config/fish ]; then
+    mkdir -p ~/.config/fish
+  fi
+  ln -sf ~/flakes/modules/config.fish ~/.config/fish/config.fish
+  # if tide is-installed; then
+    tide configure
+  # fi
+fi
+
