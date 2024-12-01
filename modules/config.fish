@@ -83,8 +83,8 @@ if status is-interactive
 	alias la='lsd -A'
 	alias lf='lsd --tree --depth=1'
 	alias lt='lsd --tree --depth=2'
-	alias gitt='cat ~/Documents/gittoken | wl-copy'
-  alias gpush='cat ~/Documents/gittoken | wl-copy; git push origin $(git branch --show-current)'
+  alias glpush='cat ~/Documents/gittoken | wl-copy; git push origin $(git branch --show-current)'
+  alias ghpush='cat ~/Documents/githubtoken| wl-copy; git push origin $(git branch --show-current)'
 
 
   function ni

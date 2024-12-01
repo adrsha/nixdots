@@ -23,6 +23,81 @@
     extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
       shell = pkgs.fish;
     packages = with pkgs; [
+    tldr
+
+# System Utilities
+    blueberry
+      brightnessctl
+      gnumake
+      nix-search-cli
+      xorg.xset
+      udiskie
+      libnotify
+      killall
+
+# System Monitoring
+      btop
+      neofetch
+
+# Terminal Utilities
+      alacritty
+      fzf
+      fd
+      bat
+      ripgrep
+      zoxide
+      lsd
+      clipse
+
+# Development Tools
+      cargo
+      cmake
+      ninja
+      python3
+
+# Programming Languages and Toolchains
+      flutter
+
+# Language Servers
+      vscode-langservers-extracted
+      cpplint
+      lua-language-server
+      clang
+      pyright
+      typescript-language-server
+      nil
+      jq-lsp
+      bash-language-server
+      rust-analyzer
+      rnixlsp
+
+# Plugins
+      fishPlugins.tide
+
+# Qt and UI Libraries
+      qt5.full
+
+# Desktop Environment Tools
+      ags
+      swww
+      hyprpicker
+      grim
+      slurp
+      playerctl
+
+# Multimedia
+      mpv
+      imv
+
+# Compression and Archiving
+      unzip
+
+# Browsers and Internet
+      inputs.zen-browser.packages."${system}".default
+      qbittorrent
+
+# Game Engines
+      godot_4
     ];
   };
   security.sudo.extraRules= [

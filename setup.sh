@@ -42,3 +42,11 @@ if [ ! -f ~/.config/fish/config.fish ]; then
   # fi
 fi
 
+# lsd
+if [ ! -d ~/.config/lsd ]; then
+  echo "Setting up lsd"
+  if [ ! -d ~/.config ]; then
+    mkdir -p ~/.config
+  fi
+  ln -sf ~/flakes/lsd ~/.config/lsd
+fi
