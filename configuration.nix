@@ -2,7 +2,7 @@
 # your system. Help is available in the configuration.nix(5) man page, on
 # https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
 
-{ config, lib, pkgs, ... }:
+{ config, lib, pkgs, inputs, ... }:
 
 {
 
@@ -16,7 +16,7 @@
     enable = true;
     pulse.enable = true;
   };
-
+  
   users.users.chilly = {
     isNormalUser = true;
     initialPassword = "123";
@@ -62,14 +62,12 @@
       vscode-langservers-extracted
       cpplint
       lua-language-server
-      clang
       pyright
       typescript-language-server
       nil
       jq-lsp
       bash-language-server
       rust-analyzer
-      rnixlsp
 
 # Plugins
       fishPlugins.tide
@@ -78,12 +76,18 @@
       qt5.full
 
 # Desktop Environment Tools
-      ags
+      inputs.ags.packages."${system}".default # for hyprpanel
+      hyprpanel
       swww
       hyprpicker
       grim
       slurp
       playerctl
+
+# gtk
+      gtk3
+      gtk4
+      nwg-look
 
 # Multimedia
       mpv
@@ -100,11 +104,12 @@
       godot_4
     ];
   };
+  
   security.sudo.extraRules= [
   {  users = [ "chilly" ];
     commands = [
     { command = "ALL" ;
-      options= [ "NOPASSWD" ]; # "SETENV" # Adding the following could be a good idea
+      options= [ "NOPASSWD" ]; 
     }
     ];
   }
@@ -119,88 +124,72 @@
         lsd
         wl-clipboard-rs
         file
-        llvmPackages_latest.clang-tools
         llvmPackages_latest.libcxx
         lua53Packages.jsregexp
     ];
-    shellAliases = {
-      cp = "cp -ir";
-      mv = "mv -i";
-      mkdir = "mkdir -p";
-      l = "lsd -L";
-      ls = "lsd -L";
-      la = "lsd -A";
-      ll = "lsd -lA --date relative --sort git";
-      lt = "lsd --tree";
-      lr = "lsd -R";
-      f = "cd $(fd ~ | fzf)";
-      o = "~/Scripts/launch";
-      n = "nvim";
-      t = "nvim ~/Notes/todo.md";
-      nc = "nvim ~/flakes/";
-      nm = "sudo nmtui";
-      ns = "nix-search -dr";
-      ins = "nix-env -iA";
-      uni = "nix-env --uninstall";
-      runc = "make main && ./main";
-      rr = "sudo nixos-rebuild switch --flake $HOME/flakes/ && home-manager switch --flake ~/flakes/";
-      nr = "sudo nixos-rebuild switch --flake $HOME/flakes/";
-      hr = "home-manager switch --flake $HOME/flakes/";
-      gpush = "cat ~/Documents/gittoken | wl-copy; git push origin $(git branch --show-current)";
-    };
   };
 
 # PROGRAMS
   programs.hyprland.enable = true;
   programs.fish.enable = true;
   programs.npm.enable = true;
+  programs.adb.enable = true;
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
-    at-spi2-core
-      boost
-      cairo
-      udisks
-      curl
-      dbus
-      fmt
-      fuse3
-      glib
-      glibc
-      graphite2
-      gtk3
-      gtk3-x11
-      harfbuzz
-      libdbusmenu-gtk3
-      libepoxy
-      libselinux
-      libsepol
-      libstdcxx5
-      libxkbcommon
-      openssl                                                                                                                                                                                                                           
-      pango
-      pcre
-      qt5.qtbase
-      qt5.qtwayland
-      stdenv.cc.cc
-      stdenv.cc.cc.lib
-      util-linux
-      xorg.libX11
-      xorg.libXcursor                                                                                                                                                                                                                   
-      xorg.libXdmcp
-      xorg.libXi                                                                                                                                                                                                                        
-      xorg.libXtst
-      xorg.libxcb                                                                                                                                                                                                                       
-      zlib
+    # at-spi2-core
+      # boost
+      # cairo
+      # udisks
+      # curl
+    #   dbus
+    #   fmt
+      # fuse3
+    #   glib
+    #   glibc
+    #   graphite2
+    #   gtk3
+    #   gtk3-x11
+    #   harfbuzz
+    #   libepoxy
+    #   libselinux
+    #   libsepol
+    #   libxkbcommon
+    #   openssl                                                                                                                                                                                                                           
+    #   pango
+    #   pcre
+    #   qt5.qtbase
+    #   qt5.qtwayland
+    #   stdenv.cc.cc
+    #   stdenv.cc.cc.lib
+    #   util-linux
+    #   xorg.libX11
+    #   xorg.libXcursor                                                                                                                                                                                                                   
+    #   xorg.libXdmcp
+    #   xorg.libXi                                                                                                                                                                                                                        
+    #   xorg.libXtst
+    #   xorg.libxcb                                                                                                                                                                                                                       
+    #   zlib
       ];
 
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "JetBrainsMono" "Iosevka" ]; })
+    nerd-fonts.jetbrains-mono
+    nerd-fonts.iosevka
   ];
+
+  # Optional: System-wide GTK theme configuration
+  environment.etc."gtk-3.0/settings.ini" = {
+    text = ''
+      [Settings]
+      gtk-theme-name=Graphite-Dark
+    '';
+  };
 
   nix.settings = {
     experimental-features = ["nix-command" "flakes"];
   };
-
+  hardware.bluetooth.enable = true; # enables support for Bluetooth
+  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
+  nixpkgs.overlays = [ inputs.hyprpanel.overlay ];
 # This option defines the first version of NixOS you have installed on this particular machine,
 # and is used to maintain compatibility with application data (e.g. databases) created on older NixOS versions.
 #

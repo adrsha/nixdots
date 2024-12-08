@@ -56,6 +56,7 @@ if status is-interactive
 	alias n='nvim'
 	alias fc='nvim ~/.config/fish/config.fish'
 	alias hc='nvim ~/.config/hypr/hyprland.conf'
+	alias nc='cd ~/flakes/ && nvim ~/flakes/configuration.nix'
 	alias ac='nvim ~/.config/alacritty/alacritty.toml'
   alias f='cd $(fd ~ | fzf)';
   alias o="~/Scripts/launch";
@@ -75,10 +76,9 @@ if status is-interactive
 	alias calc='~/Codes/SHARKalculator/target/release/rustCalc'
 	alias uni='yay --color=auto -Rcns'
 	alias ls='lsd'
-	alias nr='sudo systemctl restart NetworkManager --now'
+	alias nmr='sudo systemctl restart NetworkManager --now'
 	alias nm='nmtui'
-	alias nc='ping google.com'
-	alias t='n ~/Notes/Todo.norg'
+	alias nr='sudo nixos-rebuild switch --flake ~/flakes'
   alias fs='sudo du -h -d 2 | sort -rh'
 	alias la='lsd -A'
 	alias lf='lsd --tree --depth=1'

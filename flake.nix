@@ -4,12 +4,9 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-
-    home-manager = {
-      url = "github:nix-community/home-manager";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
     zen-browser.url = "github:MarceColl/zen-browser-flake";
+    ags.url = "github:Aylur/ags/v1";
+    hyprpanel.url = "github:Jas-SinghFSU/HyprPanel";
   };
 
   outputs = { 

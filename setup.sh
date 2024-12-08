@@ -1,5 +1,14 @@
 #!/usr/bin/env bash
 
+# Hyprland
+if [ ! -f ~/.config/hypr/hyprland.conf ]; then
+  echo "Setting up hyprland"
+  if [ ! -d ~/.config/hypr ]; then
+    mkdir -p ~/.config/hypr
+  fi
+  ln -sf ~/flakes/modules/hyprland.conf ~/.config/hypr/hyprland.conf
+fi
+
 # Neovim
 if [ ! -d ~/.config/nvim ]; then
   echo "Setting up neovim"
@@ -10,15 +19,6 @@ fi
 if [ ! -d ~/Scripts ]; then
   echo "Setting up scripts"
   git clone https://github.com/adrsha/scripts ~/Scripts
-fi
-
-# Hyprland
-if [ ! -f ~/.config/hypr/hyprland.conf ]; then
-  echo "Setting up hyprland"
-  if [ ! -d ~/.config/hypr ]; then
-    mkdir -p ~/.config/hypr
-  fi
-  ln -sf ~/flakes/modules/hyprland.conf ~/.config/hypr/hyprland.conf
 fi
 
 # Alacritty
@@ -38,15 +38,21 @@ if [ ! -f ~/.config/fish/config.fish ]; then
   fi
   ln -sf ~/flakes/modules/config.fish ~/.config/fish/config.fish
   # if tide is-installed; then
-    tide configure
+    # tide configure
   # fi
 fi
 
 # lsd
 if [ ! -d ~/.config/lsd ]; then
   echo "Setting up lsd"
-  if [ ! -d ~/.config ]; then
-    mkdir -p ~/.config
-  fi
   ln -sf ~/flakes/lsd ~/.config/lsd
 fi
+
+# ags
+if [ ! -d ~/.config/ags ]; then
+  echo "Setting up ags"
+  ln -sf ~/flakes/ags ~/.config/ags
+fi
+
+# Hardware Configuration
+cp /etc/nixos/hardware-configuration.nix ~/flakes/hardware-configuration.nix

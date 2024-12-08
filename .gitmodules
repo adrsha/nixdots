@@ -1,0 +1,6 @@
+[submodule "Tela-icon-theme"]
+	path = Tela-icon-theme
+	url = https://github.com/vinceliuice/Tela-icon-theme.git
+[submodule "Graphite-gtk-theme"]
+	path = Graphite-gtk-theme
+	url = https://github.com/vinceliuice/Graphite-gtk-theme.git
