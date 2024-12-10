@@ -34,6 +34,7 @@
       udiskie
       libnotify
       killall
+      imagemagick
 
 # System Monitoring
       btop
@@ -48,6 +49,7 @@
       zoxide
       lsd
       clipse
+      ueberzugpp
 
 # Development Tools
       cargo
