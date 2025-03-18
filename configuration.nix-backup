@@ -1,0 +1,410 @@
+# Edit this configuration file to define what should be installed on
+# your system. Help is available in the configuration.nix(5) man page, on
+# https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
+
+{ config, lib, pkgs, inputs, ... }:
+
+{
+# Boot configuration
+  boot = {
+# Use systemd-boot as bootloader
+    loader = {
+      systemd-boot.enable = true;
+      efi.canTouchEfiVariables = true;
+    };
+
+# Enable NVIDIA DRM kernel mode setting
+# This improves compatibility with Wayland compositors (like Hyprland)
+    kernelParams = [ 
+      "nvidia_drm.modeset=1"
+      "amd_pstate=active" # Optimized power management for AMD Ryzen CPUs
+      "nvidia.NVreg_PreserveVideoMemoryAllocations=1" # Helps with suspend/resume
+    ];
+
+# Enable specific kernel modules for better hardware support
+    kernelModules = [ "kvm-amd" ]; # Enable AMD virtualization support
+  };
+
+# Network configuration
+  networking = {
+    hostName = "nixos";
+    networkmanager.enable = true; # Use NetworkManager for network connections
+  };
+
+# Audio configuration
+  services.pipewire = {
+    enable = true;
+    pulse.enable = true;     # PulseAudio compatibility
+      alsa.enable = true;      # ALSA compatibility
+      alsa.support32Bit = true; # Support for 32-bit applications
+      jack.enable = true;      # JACK audio compatibility
+  };
+
+# User configuration
+  users.users.chilly = {
+    isNormalUser = true;
+    initialPassword = "123";
+    extraGroups = [ 
+      "wheel"   # Allow sudo access
+      "video"   # Allow access to video devices (important for GPU)
+      "audio"   # Allow access to audio devices
+      "input"   # Allow access to input devices
+      "networkmanager" # Allow network management
+    ];
+    shell = pkgs.fish;
+    packages = with pkgs; [
+      tldr
+
+# System Utilities
+        blueberry       # Bluetooth manager
+        brightnessctl   # Control screen brightness
+        gnumake         # Build automation tool
+        nix-search-cli  # Search Nix packages
+        xorg.xset       # User preference utility for X
+        udiskie         # Automount removable media
+        libnotify       # Desktop notifications
+        killall         # Kill processes by name
+        imagemagick     # Image manipulation
+
+# System Monitoring
+        btop            # Resource monitor
+        neofetch        # System information tool
+        s-tui           # Stress-Terminal UI monitoring tool
+        lm_sensors      # Hardware monitoring utilities
+        nvtopPackages.full           # NVIDIA GPU monitoring tool
+
+# Terminal Utilities
+        alacritty       # GPU-accelerated terminal
+        fzf             # Fuzzy finder
+        fd              # Simple alternative to 'find'
+        bat             # Better 'cat'
+        ripgrep         # Better 'grep'
+        zoxide          # Smarter cd command
+        lsd             # Better 'ls'
+        clipse          # Clipboard tool
+        ueberzugpp      # Terminal image viewer
+
+# Development Tools
+        cargo           # Rust package manager
+        cmake           # Build system
+        ninja           # Build system
+        python3         # Python interpreter
+        git-lfs         # Git Large File Storage
+
+# Programming Languages and Toolchains
+        flutter         # UI toolkit
+        rustup          # Rust toolchain installer
+
+# Language Servers
+        vscode-langservers-extracted
+        cpplint
+        lua-language-server
+        pyright
+        typescript-language-server
+        nil             # Nix language server
+        jq-lsp
+        bash-language-server
+        rust-analyzer
+
+# Plugins
+        fishPlugins.tide
+
+# Qt and UI Libraries
+        qt5.full
+
+# Desktop Environment Tools
+        inputs.ags.packages."${system}".default # for hyprpanel
+        hyprpanel
+        swww           # Wallpaper daemon for Wayland
+        hyprpicker     # Color picker for Hyprland
+        grim           # Screenshot utility for Wayland
+        slurp          # Region selection for Wayland
+        playerctl      # Media player controller
+        waybar         # Status bar for Wayland
+        wl-clipboard   # Clipboard utilities for Wayland
+
+# GTK theming
+        gtk3
+        gtk4
+        nwg-look       # GTK theme configuration tool
+        adwaita-qt     # Qt theme matching GTK
+        adwaita-icon-theme
+
+# Multimedia
+        mpv            # Media player
+        imv            # Image viewer
+        pavucontrol    # PulseAudio volume control
+
+# Compression and Archiving
+        unzip
+        p7zip
+        zip
+
+# Browsers and Internet
+        inputs.zen-browser.packages."${system}".default
+        qbittorrent
+
+# AMD & NVIDIA specific tools
+        radeontop      # AMD GPU monitoring tool
+        corectrl       # Power management for AMD CPUs/GPUs
+
+# Game Engines
+        godot_4
+
+# Gaming support
+        mangohud       # Gaming performance overlay
+        gamemode       # Optimize system for games
+        ];
+  };
+
+# Allow user to execute sudo commands without password
+  security.sudo.extraRules = [
+  { users = [ "chilly" ];
+    commands = [
+    { command = "ALL";
+      options = [ "NOPASSWD" ]; 
+    }
+    ];
+  }
+  ];
+
+# System-wide packages
+  environment = {
+    systemPackages = with pkgs; [
+      neovim 
+        curl
+        wget
+        git
+        gcc      
+        lsd
+        wl-clipboard-rs
+        file
+        llvmPackages_latest.libcxx
+        lua53Packages.jsregexp
+        pciutils      # For hardware diagnostics (e.g., lspci)
+        glxinfo       # For OpenGL diagnostics
+        vulkan-tools  # For Vulkan diagnostics
+        lshw          # List hardware
+        dmidecode     # DMI table decoder
+    ];
+  };
+
+# PROGRAMS
+  programs = {
+    hyprland = {
+      enable = true;
+      xwayland.enable = true;
+    };
+
+    fish.enable = true;     # Fish shell
+      npm.enable = true;      # Node Package Manager
+      adb.enable = true;      # Android Debug Bridge
+      nix-ld.enable = true;   # Dynamic linker support for foreign binaries
+
+# Gaming support
+      steam = {
+        enable = true;
+        remotePlay.openFirewall = true;
+        dedicatedServer.openFirewall = true;
+      };
+
+# GPU acceleration for Firefox
+    firefox = {
+      enable = true;
+      package = pkgs.firefox-wayland;  # Wayland-native Firefox
+    };
+  };
+
+# Add common system libraries for compatibility
+  programs.nix-ld.libraries = with pkgs; [
+# Uncomment libraries as needed
+# at-spi2-core
+# boost
+# cairo
+# udisks
+# curl
+# dbus
+# fmt
+# fuse3
+# glib
+# glibc
+# graphite2
+# gtk3
+# gtk3-x11
+# harfbuzz
+# libepoxy
+# libselinux
+# libsepol
+# libxkbcommon
+# openssl                                                                                                                                                                                                                           
+# pango
+# pcre
+# qt5.qtbase
+# qt5.qtwayland
+# stdenv.cc.cc
+# stdenv.cc.cc.lib
+# util-linux
+# xorg.libX11
+# xorg.libXcursor                                                                                                                                                                                                                   
+# xorg.libXdmcp
+# xorg.libXi                                                                                                                                                                                                                        
+# xorg.libXtst
+# xorg.libxcb                                                                                                                                                                                                                       
+# zlib
+    ];
+
+# Font configuration
+  fonts.packages = with pkgs; [
+    nerd-fonts.jetbrains-mono
+      nerd-fonts.iosevka
+      noto-fonts          # Good Unicode coverage
+      noto-fonts-cjk-sans      # Chinese, Japanese, Korean
+      noto-fonts-emoji    # Emoji support
+  ];
+
+# GTK theme configuration
+  environment.etc."gtk-3.0/settings.ini" = {
+    text = ''
+      [Settings]
+      gtk-theme-name=Graphite-Dark
+        '';
+  };
+
+# Nix package manager configuration
+  nix.settings = {
+    experimental-features = ["nix-command" "flakes"];
+    auto-optimise-store = true;          # Optimize nix store automatically
+      max-jobs = "auto";                   # Use all available cores for building
+  };
+
+# Hardware configurations
+  hardware = {
+# Bluetooth support
+    bluetooth = {
+      enable = true;           # Enable Bluetooth
+        powerOnBoot = true;      # Power up the default Bluetooth controller on boot
+    };
+
+# OpenGL support - using the correct syntax
+    graphics = {
+      enable = true;
+    };
+
+# CPU-specific optimizations for AMD Ryzen
+    cpu.amd.updateMicrocode = true;
+
+# NVIDIA configuration
+    nvidia = {
+      modesetting.enable = true;
+      powerManagement = {
+        enable = true;
+# finegrained requires offload mode, which doesn't work well with desktop setup
+        finegrained = false;   # Disable fine-grained power management as it requires offload mode
+      };
+      open = false;          # Use proprietary drivers for better performance
+        nvidiaSettings = true; # Enable nvidia-settings tool
+        package = config.boot.kernelPackages.nvidiaPackages.stable;
+
+# For RTX 4070 Super, use these optimized settings
+      prime = {
+# Configuration for desktop with dedicated GPU
+# Sync and offload both disabled for desktop setup
+# This lets the NVIDIA GPU work directly with the display
+        nvidiaBusId = "PCI:1:0:0";
+        amdgpuBusId = "PCI:10:0:0";
+      };
+    };
+  };
+
+# X server configuration (required even for Wayland for some NVIDIA features)
+# Configure libinput for better input device handling
+  services.libinput = {
+    enable = true;
+    mouse = {
+      accelProfile = "flat";  # Disable mouse acceleration for better gaming
+    };
+  };
+  services.xserver = {
+    videoDrivers = ["nvidia"];
+
+# Enable X server but let Wayland be primary
+    enable = true;
+
+  };
+
+# Overlay for specific packages
+  nixpkgs.overlays = [
+    inputs.hyprpanel.overlay
+# Add more overlays here as needed
+  ];
+
+# Allow unfree packages for NVIDIA drivers
+  nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+    "nvidia-x11"
+      "nvidia-settings"
+      "steam"
+      "cuda_nvdisasm"
+      "cuda-merged"
+      "cuda_nvprune"
+      "cuda_cccl"
+      "cuda_cudart"
+      "cuda_cupti"
+      "cuda_cuxxfilt"
+      "cuda_gdb"
+      "cuda_nvcc"
+      "cuda_nvml_dev"
+      "cuda_cuobjdump"
+      "cuda_nvrtc"
+      "cuda_nvtx"
+      "cuda_profiler_api"
+      "cuda_sanitizer_api"
+      "libcufft"
+      "libcurand"
+      "libcublas"
+      "libcusolver"
+      "libnvjitlink"
+      "libcusparse"
+      "libnpp"
+      "steam-unwrapped"
+      "steam-original"
+      "steam-runtime"
+      ];
+
+# Performance tuning for NixOS
+# Performance tuning
+  boot.kernel.sysctl = {
+    "vm.swappiness" = 10;                # Reduce swap usage
+      "vm.dirty_ratio" = 60;               # Percentage of system memory for dirty pages
+      "vm.dirty_background_ratio" = 20;    # Background dirty page flushing
+      "kernel.nmi_watchdog" = 0;           # Disable NMI watchdog to reduce power consumption
+      "net.core.rmem_max" = 2500000;       # Increase maximum receive socket buffer size
+      "net.core.wmem_max" = 2500000;       # Increase maximum send socket buffer size
+  };
+
+# Add swap file for better system stability with heavy workloads
+  swapDevices = [
+  {
+    device = "/var/lib/swapfile";
+    size = 16384;  # 16GB swap size - adjust based on your RAM
+  }
+  ];
+
+# System state version - DO NOT CHANGE after installation
+  system.stateVersion = "24.05"; # Read the comment below!
+
+# This option defines the first version of NixOS you have installed on this particular machine,
+# and is used to maintain compatibility with application data (e.g. databases) created on older NixOS versions.
+#
+# Most users should NEVER change this value after the initial install, for any reason,
+# even if you've upgraded your system to a new NixOS release.
+#
+# This value does NOT affect the Nixpkgs version your packages and OS are pulled from,
+# so changing it will NOT upgrade your system - see https://nixos.org/manual/nixos/stable/#sec-upgrading for how
+# to actually do that.
+#
+# This value being lower than the current NixOS release does NOT mean your system is
+# out of date, out of support, or vulnerable.
+#
+# Do NOT change this value unless you have manually inspected all the changes it would make to your configuration,
+# and migrated your data accordingly.
+}

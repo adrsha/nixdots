@@ -1,184 +1,227 @@
-# Edit this configuration file to define what should be installed on
-# your system. Help is available in the configuration.nix(5) man page, on
-# https://search.nixos.org/options and in the NixOS manual (`nixos-help`).
+# ╭───────────────────────────────────────────────────────────────────────────────╮
+# │                       Main NixOS Configuration File                           │
+# │   Defines system configuration, specifying what to install and configure.     │
+# ╰───────────────────────────────────────────────────────────────────────────────╯
 
 { config, lib, pkgs, inputs, ... }:
 
 {
+  # ╭─────────────────────────────╮
+  # │ Boot Configuration          │
+  # ╰─────────────────────────────╯
+  boot.loader.systemd-boot.enable = true;  # Uses systemd-boot as the bootloader
+  boot.loader.efi.canTouchEfiVariables = true;  # Allow modifying EFI variables
 
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  # ╭────────────────────────────────────────────────────────╮
+  # │ Kernel Parameters                                      │
+  # ╰────────────────────────────────────────────────────────╯
+  boot.kernelParams = [
+    "nvidia_drm.modeset=1" 
+    "nvidia.NVreg_PreserveVideoMemoryAllocations=1"  # Better system stability with NVIDIA
+  ];
 
-  networking.hostName = "nixos"; 
-  networking.networkmanager.enable = true;  
+  # ╭──────────────────────────────╮
+  # │ Network Configuration        │
+  # ╰──────────────────────────────╯
+  networking.hostName = "nixos";  # Sets the hostname of the system
+  networking.networkmanager.enable = true;  # Enables NetworkManager for network management
+  time.timeZone = "Asia/Kathmandu";
+  
+  # ╭────────────────────────────────────╮
+  # │ Firewall Configuration             │
+  # ╰────────────────────────────────────╯
+  networking.firewall = {
+    enable = false;
+    allowedTCPPorts = [ 80 443 ];  # Common web ports
+    allowedUDPPorts = [ 53 ];  # DNS
+  };
 
+  # ╭──────────────────────────────────────────────────────────╮
+  # │ Audio Configuration                                      │
+  # ╰──────────────────────────────────────────────────────────╯
   services.pipewire = {
     enable = true;
+    alsa.enable = true;
+    alsa.support32Bit = true;  # For 32-bit application support
     pulse.enable = true;
   };
-  
+
+  # ╭──────────────────────────────────────────────────────────────────╮
+  # │ User Configuration                                               │
+  # ╰──────────────────────────────────────────────────────────────────╯
   users.users.chilly = {
     isNormalUser = true;
-    initialPassword = "123";
-    extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
-      shell = pkgs.fish;
+    initialPassword = "changeme"; 
+    extraGroups = [ "wheel" ];  # Enable 'sudo' for the user
+    shell = pkgs.fish;  # Set the default shell to fish
     packages = with pkgs; [
-    tldr
+      tldr  # Command documentation tool
+      blueberry  # Bluetooth manager
+      brightnessctl  # Brightness control utility
+      gnumake  # GNU Make
+      nix-search-cli  # CLI tool for searching Nix packages
+      xorg.xset  # X server settings utility
+      udiskie  # Automount removable media
+      libnotify  # Desktop notifications library
+      killall  # Process termination utility
+      imagemagick  # Image manipulation
 
-# System Utilities
-    blueberry
-      brightnessctl
-      gnumake
-      nix-search-cli
-      xorg.xset
-      udiskie
-      libnotify
-      killall
-      imagemagick
+      # System Monitoring
+      btop  # System monitor
+      neofetch  # System info display
 
-# System Monitoring
-      btop
-      neofetch
+      # Terminal Utilities
+      alacritty  # GPU-accelerated terminal emulator
+      fzf  # Fuzzy finder
+      fd  # Fast alternative to find
+      bat  # Cat clone with syntax highlighting
+      ripgrep  # Fast grep alternative
+      zoxide  # Smarter cd command
+      lsd  # Modern ls alternative
+      clipse  # Clipboard manager
+      ueberzugpp  # Image viewer for terminal
 
-# Terminal Utilities
-      alacritty
-      fzf
-      fd
-      bat
-      ripgrep
-      zoxide
-      lsd
-      clipse
-      ueberzugpp
+      # Development Tools
+      cargo  # Rust package manager
+      cmake  # Cross-platform build system
+      ninja  # Build system focused on speed
+      python3  # Python programming language
 
-# Development Tools
-      cargo
-      cmake
-      ninja
-      python3
+      # Programming Languages and Toolchains
+      flutter  # UI toolkit for mobile, web, and desktop
 
-# Programming Languages and Toolchains
-      flutter
-
-# Language Servers
+      # Language Servers for code completion and analysis
       vscode-langservers-extracted
       cpplint
       lua-language-server
       pyright
       typescript-language-server
-      nil
+      nil  # Nix language server
       jq-lsp
       bash-language-server
       rust-analyzer
 
-# Plugins
-      fishPlugins.tide
+      # Plugins
+      fishPlugins.tide  # Fish shell theme
 
-# Qt and UI Libraries
-      qt5.full
+      # Qt and UI Libraries
+      qt5.full  # Qt5 framework
 
-# Desktop Environment Tools
-      inputs.ags.packages."${system}".default # for hyprpanel
-      hyprpanel
-      swww
-      hyprpicker
-      grim
-      slurp
-      playerctl
-
-# gtk
+      # Desktop Environment Tools
+      inputs.ags.packages."${system}".default  # For hyprpanel
+      hyprpanel  # Panel for Hyprland
+      swww  # Wallpaper manager for Wayland
+      hyprpicker  # Color picker for Hyprland
+      grim  # Screenshot utility for Wayland
+      slurp  # Region selection tool for Wayland
+      playerctl  # Media player controller
+      util-linux 
+      
+      # GTK themes and tools
       gtk3
       gtk4
-      nwg-look
+      nwg-look  # GTK settings editor
+      adwaita-icon-theme
+      graphite-gtk-theme
 
-# Multimedia
-      mpv
-      imv
+      # Multimedia
+      mpv  # Media player
+      imv  # Image viewer
 
-# Compression and Archiving
-      unzip
+      # Compression and Archiving
+      unzip  # Extraction utility
 
-# Browsers and Internet
-      inputs.zen-browser.packages."${system}".default
-      qbittorrent
+      # Browsers and Internet
+      inputs.zen-browser.packages."${system}".default  # Browser
+      qbittorrent  # Torrent client
 
-# Game Engines
-      godot_4
+      # Game Engines
+      godot_4  # Game development engine
+
+      mangohud
+      gamescope
     ];
   };
-  
+
+  # ╭────────────────────────────────────────────╮
+  # │ Sudo Configuration                         │
+  # ╰────────────────────────────────────────────╯
   security.sudo.extraRules= [
-  {  users = [ "chilly" ];
-    commands = [
-    { command = "ALL" ;
-      options= [ "NOPASSWD" ]; 
+    {  
+      users = [ "chilly" ];
+      commands = [
+        { command = "ALL";
+          options= [ "NOPASSWD" ];  # SECURITY WARNING: No password required for all commands
+        }
+      ];
     }
-    ];
-  }
   ];
+
+  # ╭────────────────────────────────────────────────────────────────╮
+  # │ System-wide Packages and Environment Configuration             │
+  # ╰────────────────────────────────────────────────────────────────╯
   environment = {
     systemPackages = with pkgs; [
-      neovim 
-        curl
-        wget
-        git
-        gcc      
-        lsd
-        wl-clipboard-rs
-        file
-        llvmPackages_latest.libcxx
-        lua53Packages.jsregexp
+      neovim  # Text editor
+      curl  # Data transfer tool
+      wget  # Web file retriever
+      git  # Version control system
+      gcc  # GNU Compiler Collection
+      lsd  # Modern ls alternative
+      wl-clipboard-rs  # Wayland clipboard utility
+      file  # File type identification
+      llvmPackages_latest.libcxx  # LLVM C++ library
+      lua53Packages.jsregexp  # Lua regex library
     ];
   };
 
-# PROGRAMS
-  programs.hyprland.enable = true;
-  programs.fish.enable = true;
-  programs.npm.enable = true;
-  programs.adb.enable = true;
-  programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = with pkgs; [
-    # at-spi2-core
-      # boost
-      # cairo
-      # udisks
-      # curl
-    #   dbus
-    #   fmt
-      # fuse3
-    #   glib
-    #   glibc
-    #   graphite2
-    #   gtk3
-    #   gtk3-x11
-    #   harfbuzz
-    #   libepoxy
-    #   libselinux
-    #   libsepol
-    #   libxkbcommon
-    #   openssl                                                                                                                                                                                                                           
-    #   pango
-    #   pcre
-    #   qt5.qtbase
-    #   qt5.qtwayland
-    #   stdenv.cc.cc
-    #   stdenv.cc.cc.lib
-    #   util-linux
-    #   xorg.libX11
-    #   xorg.libXcursor                                                                                                                                                                                                                   
-    #   xorg.libXdmcp
-    #   xorg.libXi                                                                                                                                                                                                                        
-    #   xorg.libXtst
-    #   xorg.libxcb                                                                                                                                                                                                                       
-    #   zlib
-      ];
+  environment.sessionVariables = {
+    WLR_NO_HARDWARE_CURSORS = "1";
+    NIXOS_OZONE_WL = "1";
+  };
 
-  fonts.packages = with pkgs; [
-    nerd-fonts.jetbrains-mono
-    nerd-fonts.iosevka
+  # ╭────────────────────────────────────╮
+  # │ Programs Configuration             │
+  # ╰────────────────────────────────────╯
+  programs.hyprland = {
+    enable = true;  # Enable Hyprland Wayland compositor
+    xwayland.enable = true;  # Enable XWayland for X11 app support
+  };
+
+  # Enable various programs
+  programs.fish.enable = true;  # Fish shell
+  programs.npm.enable = true;  # Node.js package manager
+  programs.adb.enable = true;  # Android Debug Bridge
+  programs.nix-ld.enable = true;  # Dynamic linker for nix
+  programs.nix-ld.libraries = with pkgs; [
+    # Uncomment libraries as needed
+    # at-spi2-core
+    # boost
+    # cairo
+    # udisks
+    # curl
+    # dbus
+    # fmt
+    # fuse3
+    # glib
+    # gtk3
+    # gtk3-x11
+    # openssl
+    # pango
+    # qt5.qtbase
   ];
 
-  # Optional: System-wide GTK theme configuration
+  # ╭───────────────────────────╮
+  # │ Font Configuration        │
+  # ╰───────────────────────────╯
+  fonts.packages = with pkgs; [
+    nerd-fonts.jetbrains-mono  # Developer font with icons
+    nerd-fonts.iosevka  # Slender monospace font with icons
+  ];
+
+  # ╭────────────────────────────────────────────╮
+  # │ GTK Theme Configuration                    │
+  # ╰────────────────────────────────────────────╯
   environment.etc."gtk-3.0/settings.ini" = {
     text = ''
       [Settings]
@@ -186,30 +229,56 @@
     '';
   };
 
+  # ╭────────────────────────────────────────────╮
+  # │ Nix Package Manager Configuration          │
+  # ╰────────────────────────────────────────────╯
   nix.settings = {
-    experimental-features = ["nix-command" "flakes"];
+    experimental-features = ["nix-command" "flakes"];  # Enable flakes and nix-command
   };
-  hardware.bluetooth.enable = true; # enables support for Bluetooth
-  hardware.bluetooth.powerOnBoot = true; # powers up the default Bluetooth controller on boot
-  nixpkgs.overlays = [ inputs.hyprpanel.overlay ];
-# This option defines the first version of NixOS you have installed on this particular machine,
-# and is used to maintain compatibility with application data (e.g. databases) created on older NixOS versions.
-#
-# Most users should NEVER change this value after the initial install, for any reason,
-# even if you've upgraded your system to a new NixOS release.
-#
-# This value does NOT affect the Nixpkgs version your packages and OS are pulled from,
-# so changing it will NOT upgrade your system - see https://nixos.org/manual/nixos/stable/#sec-upgrading for how
-# to actually do that.
-#
-# This value being lower than the current NixOS release does NOT mean your system is
-# out of date, out of support, or vulnerable.
-#
-# Do NOT change this value unless you have manually inspected all the changes it would make to your configuration,
-# and migrated your data accordingly.
-#
-# For more information, see `man configuration.nix` or https://nixos.org/manual/nixos/stable/options#opt-system.stateVersion .
-  system.stateVersion = "24.05"; # Did you read the comment?
 
+  # ╭───────────────────────────────────────────────────────╮
+  # │ Hardware Configuration                                │
+  # ╰───────────────────────────────────────────────────────╯
+  hardware.bluetooth.enable = true;  # Enable Bluetooth support
+  hardware.bluetooth.powerOnBoot = true;  # Power on Bluetooth at boot
+  hardware.graphics.enable = true;  # Enable graphics support
+
+  # ╭──────────────────────────────────────────────╮
+  # │ NVIDIA Configuration                         │
+  # ╰──────────────────────────────────────────────╯
+  hardware.nvidia = {
+    modesetting.enable = true;  # Enable kernel modesetting
+    powerManagement.enable = true;  # Enable power management
+    nvidiaSettings = true;  # Enable nvidia-settings utility
+    package = config.boot.kernelPackages.nvidiaPackages.stable;  # Use stable NVIDIA drivers
+    open = false;  # Don't use open-source drivers
+  };
+
+  hardware.nvidia.prime = {
+    nvidiaBusId = "PCI:1:0:0";  # Likely incorrect for your specific hardware
+    amdgpuBusId = "PCI:10:0:0";  # Likely incorrect for your specific hardware
+  };
+
+  hardware.cpu.amd.updateMicrocode = true;
+  hardware.enableRedistributableFirmware = true;
+
+  # ╭────────────────────────────────────────╮
+  # │ X Server Configuration                 │
+  # ╰────────────────────────────────────────╯
+  services.xserver.videoDrivers = ["nvidia"];  # Use NVIDIA drivers for X server
+
+  # ╭─────────────────────────────────────────╮
+  # │ Overlays and Package Configuration      │
+  # ╰─────────────────────────────────────────╯
+  nixpkgs.overlays = [ inputs.hyprpanel.overlay ];  # Add hyprpanel overlay
+  nixpkgs.config.allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
+    "nvidia-x11"
+    "nvidia-settings"
+  ];
+  nixpkgs.config.nvidia.acceptLicense = true;
+
+  # ╭────────────────────────────────────────────────────────────╮
+  # │ System State Version                                       │
+  # ╰────────────────────────────────────────────────────────────╯
+  system.stateVersion = "24.05";  # VERSION WARNING: Might be newer than current stable NixOS version
 }
-

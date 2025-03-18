@@ -1,0 +1,1475 @@
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.018: Error: can't assign "battery-good-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+mainBar@file:///home/chilly/.config/ags/config.js:445:14
+@file:///home/chilly/.config/ags/config.js:686:5
+async*_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.048: Error: can't assign "bluetooth" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+AppItem@file:///home/chilly/.config/ags/config.js:578:18
+AppLauncher@file:///home/chilly/.config/ags/config.js:594:32
+@file:///home/chilly/.config/ags/config.js:687:5
+async*_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.049: Error: can't assign "system-search-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+AppLauncher@file:///home/chilly/.config/ags/config.js:599:14
+@file:///home/chilly/.config/ags/config.js:687:5
+async*_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.060: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/<@resource:///com/github/Aylur/ags/widgets/widget.js:43:25
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.060: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/<@resource:///com/github/Aylur/ags/widgets/widget.js:43:25
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.069: Error: can't assign "bluetooth-active-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/<@resource:///com/github/Aylur/ags/widgets/widget.js:43:25
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.069: Error: can't assign "network-wireless-signal-excellent-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/<@resource:///com/github/Aylur/ags/widgets/widget.js:43:25
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.069: Error: can't assign "network-wired-disconnected-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/<@resource:///com/github/Aylur/ags/widgets/widget.js:43:25
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:34.070: Error: can't assign "media-playback-start-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/<@resource:///com/github/Aylur/ags/widgets/widget.js:43:25
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:36.359: Error: can't assign "network-wireless-signal-excellent-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+_activeAp/this._apBind</<@resource:///com/github/Aylur/ags/service/network.js:131:36
+_activeAp/this._apBind<@resource:///com/github/Aylur/ags/service/network.js:131:19
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:36.389: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:36.390: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:36.404: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:36.404: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:37.544: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:37.558: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:37.571: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+async*_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.817: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.818: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.831: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.831: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.845: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+async*_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.846: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+async*_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.865: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.865: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.879: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:38.879: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.193: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.193: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.206: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.207: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.221: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.222: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.236: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.237: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.865: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.865: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.879: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.879: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.894: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.895: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.908: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:40.908: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:42.359: Error: can't assign "network-wireless-signal-excellent-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+_activeAp/this._apBind</<@resource:///com/github/Aylur/ags/service/network.js:131:36
+_activeAp/this._apBind<@resource:///com/github/Aylur/ags/service/network.js:131:19
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.392: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.392: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.406: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.406: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.420: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.421: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.433: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.434: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.824: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.825: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.839: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.840: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.853: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.854: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.867: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:43.867: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.539: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.540: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.554: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.555: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.569: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.570: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.583: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.583: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.826: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.840: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:44.853: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+async*_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:45.543: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:45.557: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:46.063: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:46.079: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:46.774: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:46.787: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:47.029: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:47.043: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:48.359: Error: can't assign "network-wireless-signal-excellent-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+_activeAp/this._apBind</<@resource:///com/github/Aylur/ags/service/network.js:131:36
+_activeAp/this._apBind<@resource:///com/github/Aylur/ags/service/network.js:131:19
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:50.153: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:50.167: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:58.865: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:02:58.879: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:03:00.359: Error: can't assign "network-wireless-signal-excellent-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+_activeAp/this._apBind</<@resource:///com/github/Aylur/ags/service/network.js:131:36
+_activeAp/this._apBind<@resource:///com/github/Aylur/ags/service/network.js:131:19
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:03:06.360: Error: can't assign "network-wireless-signal-excellent-symbolic" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+_activeAp/this._apBind</<@resource:///com/github/Aylur/ags/service/network.js:131:36
+_activeAp/this._apBind<@resource:///com/github/Aylur/ags/service/network.js:131:19
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:03:08.257: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:03:08.271: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:03:21.991: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+
+(com.github.Aylur.ags:28801): Gjs-Console-WARNING **: 17:03:22.006: Error: can't assign "alacritty" as icon, it is not a file nor a named icon
+set icon@resource:///com/github/Aylur/ags/widgets/icon.js:45:30
+_handleParamProp@resource:///com/github/Aylur/ags/widgets/widget.js:124:13
+Icon@resource:///com/github/Aylur/ags/widgets/icon.js:25:14
+newIcon@resource:///com/github/Aylur/ags/widgets/icon.js:8:12
+hyprlandClientWidget/<.children</<@file:///home/chilly/.config/ags/config.js:82:22
+hyprlandClientWidget/<.children<@file:///home/chilly/.config/ags/config.js:73:21
+transform/bind.transformFn@resource:///com/github/Aylur/ags/service.js:16:37
+bind/callback<@resource:///com/github/Aylur/ags/widgets/widget.js:53:30
+hook/id<@resource:///com/github/Aylur/ags/widgets/widget.js:36:21
+setValue@resource:///com/github/Aylur/ags/variable.js:114:14
+hyprlandClientWidget/eventListener<@file:///home/chilly/.config/ags/config.js:48:20
+_onEvent@resource:///com/github/Aylur/ags/service/hyprland.js:330:14
+_watchSocket/<@resource:///com/github/Aylur/ags/service/hyprland.js:141:18
+_init/GLib.MainLoop.prototype.runAsync/</<@resource:///org/gnome/gjs/modules/core/overrides/GLib.js:266:34
+  
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 
+Battery script execution error: 

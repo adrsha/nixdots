@@ -16,15 +16,18 @@ export XCURSOR_SIZE=24
 export EDITOR=nvim
 export VISUAL=nvim
 
-# export SKIM_DEFAULT_OPTIONS=" --color=bg+:-1,spinner:5,fg:15,header:1,info:13,pointer:5,marker:1,prompt:13,fg+:5,border:0"
-# export FZF_DEFAULT_OPTS=" --color=bg+:-1,spinner:5,fg:15,header:1,info:13,pointer:5,marker:1,prompt:13,fg+:5,border:0"
 export FZF_DEFAULT_OPTS="--height=80% --layout=reverse --info=inline --border --margin=1 --padding=1 --wrap --gap=1 --no-separator --pointer=✦ --color=16 --color='gutter:-1,fg+:2,fg:7'"
 export HYRCURSOR_THEME="Bibata-Modern_Classic"
 export HYRCURSOR_TRACE=1
 export HYRCURSOR_SIZE=24;
 
-export WLR_DRM_DEVICES="/dev/dri/card1:/dev/dri/card0"; 
-export WLR_DRM_NO_ATOMIC="1"
+export WLR_NO_HARDWARE_CURSORS=1
+export LIBVA_DRIVER_NAME=nvidia
+export __GLX_VENDOR_LIBRARY_NAME=nvidia
+export GBM_BACKEND=nvidia-drm
+export __GL_GSYNC_ALLOWED=1
+export _GL_VRR_ALLOWED=1
+export WLR_RENDERER_ALLOW_SOFTWARE=1
 
 fish_add_path path $HOME/Scripts/
 # fish_add_path path $HOME/.config/emacs/bin
