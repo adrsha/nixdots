@@ -48,11 +48,17 @@ if [ ! -d ~/.config/lsd ]; then
   ln -sf ~/flakes/lsd ~/.config/lsd
 fi
 
-# ags
-if [ ! -d ~/.config/ags ]; then
-  echo "Setting up ags"
-  ln -sf ~/flakes/ags ~/.config/ags
+# waybar
+if [ ! -d ~/.config/waybar ]; then
+  echo "Setting up waybar"
+  ln -sf ~/flakes/waybar ~/.config/waybar
 fi
 
+# # ags
+# if [ ! -d ~/.config/ags ]; then
+#   echo "Setting up ags"
+#   ln -sf ~/flakes/ags ~/.config/ags
+# fi
+#
 # Hardware Configuration
 cp /etc/nixos/hardware-configuration.nix ~/flakes/hardware-configuration.nix

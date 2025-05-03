@@ -1,0 +1,15 @@
+;; Disable UI
+(setq-default mode-line-format nil)
+(setq-default cursor-in-non-selected-windows nil)
+(setq server-client-instructions nil)
+(setq initial-scratch-message nil)
+(setq initial-buffer-choice nil)
+(setq frame-title-format nil)
+(if (fboundp 'scroll-bar-mode) (set-scroll-bar-mode nil))
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(blink-cursor-mode -1)
+(global-display-line-numbers-mode t)
+(setq-default inhibit-message nil)
+
+(set-default 'truncate-lines t)

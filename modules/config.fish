@@ -69,6 +69,7 @@ if status is-interactive
   alias pyv='python venv ./bin/activate.fish'
 	alias ins='yay --color=auto -S'
 	alias upd='yay --color=auto -Syu'
+  alias mi="matugen image";
 
   if test -f ~/Codes/SHARKalculator/target/release/rustCalc
     alias calc='~/Codes/SHARKalculator/target/release/rustCalc'

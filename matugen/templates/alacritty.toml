@@ -41,7 +41,7 @@ transparent_background_colors = true
 
 [colors.primary]
 background = '0x000000'
-foreground = '#b2ccc0'
+foreground = '{{colors.secondary.default.hex}}'
 
 [colors.cursor]
 text = '0xdadada'

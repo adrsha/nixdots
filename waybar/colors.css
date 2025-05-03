@@ -1,0 +1,101 @@
+
+@define-color matugen-background #0f1512;
+
+@define-color matugen-error #ffb4ab;
+
+@define-color matugen-error_container #93000a;
+
+@define-color matugen-inverse_on_surface #2c322f;
+
+@define-color matugen-inverse_primary #186b53;
+
+@define-color matugen-inverse_surface #dee4df;
+
+@define-color matugen-on_background #dee4df;
+
+@define-color matugen-on_error #690005;
+
+@define-color matugen-on_error_container #ffdad6;
+
+@define-color matugen-on_primary #003829;
+
+@define-color matugen-on_primary_container #a5f2d3;
+
+@define-color matugen-on_primary_fixed #002117;
+
+@define-color matugen-on_primary_fixed_variant #00513d;
+
+@define-color matugen-on_secondary #1e352c;
+
+@define-color matugen-on_secondary_container #cee9db;
+
+@define-color matugen-on_secondary_fixed #082018;
+
+@define-color matugen-on_secondary_fixed_variant #344c42;
+
+@define-color matugen-on_surface #dee4df;
+
+@define-color matugen-on_surface_variant #bfc9c3;
+
+@define-color matugen-on_tertiary #0b3445;
+
+@define-color matugen-on_tertiary_container #c3e8fd;
+
+@define-color matugen-on_tertiary_fixed #001e2b;
+
+@define-color matugen-on_tertiary_fixed_variant #264b5c;
+
+@define-color matugen-outline #89938d;
+
+@define-color matugen-outline_variant #404944;
+
+@define-color matugen-primary #89d6b8;
+
+@define-color matugen-primary_container #00513d;
+
+@define-color matugen-primary_fixed #a5f2d3;
+
+@define-color matugen-primary_fixed_dim #89d6b8;
+
+@define-color matugen-scrim #000000;
+
+@define-color matugen-secondary #b2ccc0;
+
+@define-color matugen-secondary_container #344c42;
+
+@define-color matugen-secondary_fixed #cee9db;
+
+@define-color matugen-secondary_fixed_dim #b2ccc0;
+
+@define-color matugen-shadow #000000;
+
+@define-color matugen-source_color #0b120f;
+
+@define-color matugen-surface #0f1512;
+
+@define-color matugen-surface_bright #343b37;
+
+@define-color matugen-surface_container #1b211e;
+
+@define-color matugen-surface_container_high #252b28;
+
+@define-color matugen-surface_container_highest #303633;
+
+@define-color matugen-surface_container_low #171d1a;
+
+@define-color matugen-surface_container_lowest #0a0f0d;
+
+@define-color matugen-surface_dim #0f1512;
+
+@define-color matugen-surface_tint #89d6b8;
+
+@define-color matugen-surface_variant #404944;
+
+@define-color matugen-tertiary #a7cce1;
+
+@define-color matugen-tertiary_container #264b5c;
+
+@define-color matugen-tertiary_fixed #c3e8fd;
+
+@define-color matugen-tertiary_fixed_dim #a7cce1;
+

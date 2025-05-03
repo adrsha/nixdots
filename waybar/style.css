@@ -1,0 +1,110 @@
+@import "./colors.css";
+
+/* Waybar Styles */
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "Ndot55, DepartureMono Nerd Font";
+    font-weight: bold;
+    font-size: 20px;
+    min-height: 0;
+}
+
+window#waybar {
+    border-radius: 20px;
+    background: #000000;
+    box-shadow: 0 0 2px 0px #000000;
+    /* background: alpha(@matugen-background, 0.5); */
+}
+
+tooltip {
+    background: @matugen-surface;
+    border-radius: 10px;
+}
+
+tooltip label {
+    color: @matugen-on_surface;
+    margin: 10px;
+    font-family: "DepartureMono Nerd Font";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#workspaces {
+    background: alpha(@matugen-surface_container, 0.2);
+    border-radius: 20px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+#workspaces button {
+    padding: 0px;
+    color: alpha(@matugen-on_surface, 0.5);
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 3px;
+    padding-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.4s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#workspaces button.active {
+    background: alpha(@matugen-surface_container, 0.2);
+    color: @matugen-secondary;
+    border-radius: 20px;
+    transition: color 0.5s;
+    margin-left: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 3px;
+    animation: gradient_f 20s ease-in infinite;
+    transition: all 0.8s cubic-bezier(0.55, -0.68, 0.48, 1.682);
+}
+
+#workspaces button.focused {
+    color: @matugen-secondary;
+    background: transparent;
+}
+
+#workspaces button.urgent {
+    color: @matugen-error;
+    background: transparent;
+}
+
+#workspaces button:hover {
+    background: transparent;
+    color: @matugen-secondary;
+}
+
+#window,
+#clock,
+#battery,
+#network,
+#memory,
+#bluetooth,
+#workspaces {
+    padding: 0px 14px 0px 14px;
+}
+
+#window {
+    margin-left: 60px;
+    margin-right: 60px;
+    background: alpha(@matugen-surface_container_high, 0.3);
+    border-radius: 10px;
+    color: @matugen-secondary;
+}
+
+#clock,
+#network,
+#bluetooth,
+#battery,
+#memory {
+    color: @matugen-secondary;
+    background: transparent;
+}
+
+#calendar {
+    font-family: "DepartureMono Nerd Font";
+}

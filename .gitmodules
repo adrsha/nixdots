@@ -4,3 +4,6 @@
 [submodule "Graphite-gtk-theme"]
 	path = Graphite-gtk-theme
 	url = https://github.com/vinceliuice/Graphite-gtk-theme.git
+[submodule "nvim-perf"]
+	path = nvim-perf
+	url = https://github.com/adrsha/nvim-perf

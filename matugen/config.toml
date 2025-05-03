@@ -1,0 +1,35 @@
+[config]
+# If set to enabled, it will check for updates when you run the matugen command, notifying you that an update is avaiable.
+# WARNING: Matugen needs to be compiled with the `update-informer` feature for this to work.
+version_check = false
+
+[config.wallpaper]
+# The base command to run for applying the wallpaper, shouldn't have spaces in it.
+command = "swww"
+
+# The arguments that will be provided to the command.
+# Keywords like {{ mode }} or anything that works inside of hooks doesn't work here.
+# The last argument will be the image path.
+arguments = ["img", "--transition-type", "center"]
+
+[templates.waybar]
+input_path = './templates/waybar.css'
+output_path = '~/.config/waybar/colors.css'
+
+[templates.alacritty]
+input_path = './templates/alacritty.toml'
+output_path = '~/.config/alacritty/alacritty.toml'
+
+[templates.nvim]
+input_path = './templates/nvim.lua'
+output_path = '~/.config/nvim/lua/chadrc.lua'
+post_hook = 'nvim ~/.config/nvim/lua/chadrc.lua'
+
+[templates.emacs]
+input_path = './templates/emacs.el'
+output_path = '~/.config/emacs/modules/colors.el'
+post_hook = 'cd ~ && ~/Scripts/emacsRestart.sh'
+
+[templates.ags]
+input_path = './templates/ags.scss'
+output_path = '~/.config/ags/colors.scss'

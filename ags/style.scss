@@ -1,0 +1,278 @@
+@use "sass:color";
+@import "./colors.scss";
+
+$bg: #000000;
+// $fg: #f1f1f1;
+$radius: 2rem;
+
+window.Bar {
+    border: none;
+    box-shadow: none;
+    color: $fg;
+    // background-color: $bg;
+    padding: 10rem;
+    background-color: transparent;
+    font-size: 1.1em;
+    font-family: "Inter";
+    // border-radius: $radius ;
+
+    label {
+        margin: 0.7rem 8px;
+    }
+
+    .Workspaces {
+        margin: 0.7rem 1.0rem;
+        border-radius: $radius ;
+        // box-shadow: 0 0 0.4rem 0 $bg;
+        // background-color: color.adjust($fg, $alpha: -0.90);
+        background-color: $bg;
+
+        button {
+            all: unset;
+
+            &:hover label {
+                background-color: color.adjust($fg, $alpha: -0.84);
+            }
+
+        }
+
+        label {
+            transition: 200ms;
+            padding: 0.25rem 0.75rem;
+            margin: 0.4rem 0;
+            border-radius: $radius;
+        }
+        .focused {
+
+            &:hover label {
+                background-color: color.adjust($accent, $alpha: -0.84);
+                color: $fg;
+            }
+            label {
+                color: $bg;
+                background-color: color.adjust($accent, $alpha: -0.24);
+            }
+
+        }
+
+        label:last-child {
+            margin-right: 0.4rem;
+        }
+
+        label:first-child {
+            margin-left: 0.4rem;
+        }
+    }
+
+    .SysTray {
+        margin: 0.5rem;
+        padding: 0rem 0rem;
+        background-color: $bg;
+        border-radius: $radius;
+        button{
+            padding: 0rem 1rem;
+            background-color: transparent;
+        }
+    }
+
+    .FocusedClient {
+        color: $accent;
+    }
+
+    .Media .Cover {
+        min-height: 1.2em;
+        min-width: 1.2em;
+        border-radius: $radius;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .Battery label {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .AudioSlider {
+        // background-color: $bg;
+        border-radius: $radius;
+        padding: 0rem 1rem;
+        margin: 0.7rem 8px;
+
+        * {
+            all: unset;
+        }
+
+        icon {
+            margin-right: .6em;
+            background-color: $bg;
+            padding: 0.5rem 1rem;
+            border-radius: 50%;
+        }
+
+        & {
+            margin: 0.7rem 8px;
+        }
+
+        trough {
+            background-color: color.adjust($fg, $alpha: -0.8);
+            border-radius: $radius;
+        }
+
+        highlight {
+            background-color: $accent;
+            min-height: .8em;
+            border-radius: $radius;
+        }
+
+        slider {
+            background-color: $fg;
+            border-radius: $radius;
+            min-height: 1em;
+            min-width: 1em;
+            margin: -.2em;
+        }
+    }
+
+    .networkPC {
+        margin: 0.7rem 8px;
+        padding: 0 1rem;
+        // background-color: color.adjust($fg, $alpha: -0.90);
+        background-color: $bg;
+        border-radius: $radius ;
+        color: $fg
+    }
+
+    .networkPC box{
+        padding: 0 0.3rem;
+    }
+    .networkPC .bluetooth{
+        padding-left: 1rem;
+    }
+
+
+    .coverButton {
+        margin: .7rem;
+        border-radius: $radius;
+        padding: 0;
+        // box-shadow: 0 0 0.4rem 0 $bg;
+        // background-color: color.adjust($fg, $alpha: -0.90);
+        background-color: $bg;
+
+        // .cover{
+        //     margin: 0.3rem 0.3rem;
+        //     border: 0px solid $accent;
+        //     border-radius: $radius;
+        //     min-width: 3rem;
+        //     min-height: 2rem; 
+        // }
+        label {
+            margin: 0.5rem 2rem;
+        }
+    }
+
+
+    .Time {
+        margin: 0.7rem 8px;
+        padding: 0 1rem;
+        background-color: color.adjust($fg, $alpha: -0.90);
+        background-color: $bg;
+        border-radius: $radius ;
+        color: $fg
+    }
+}
+
+
+window.mediaPop {
+    box-shadow: none;
+    color: $fg;
+    background-color: color.adjust($fg, $alpha: -0.90);
+    // background-color: color.adjust($bg, $alpha: -0.50);
+    // background-color: $bg;
+    font-size: 1.1em;
+    font-family: "Inter";
+    border-radius: $radius;
+
+    .playerIcon {
+        margin: -19rem 2rem 1.7rem 2rem;
+    }
+
+    .cover {
+        margin: 1.7rem 1rem;
+        border-radius: $radius;
+    }
+
+    label {
+        margin: 0.7rem 2rem;
+    }
+
+    .player {
+        margin: 0.7rem 8px;
+
+        button {
+            background: $bg;
+            border-radius: 0;
+            padding: 0.1rem;
+        }
+
+        button:first-child {
+            border-radius: $radius 0 0 $radius;
+        }
+
+        button:last-child {
+            border-radius: 0 $radius $radius 0;
+        }
+    }
+
+}
+
+window.calendarWindow {
+    background-color: transparent;
+    border-radius: $radius;
+    padding: 0;
+    font-family: "Inter";
+    color: $fg;
+    box.calendar {
+        border-radius: $radius;
+        background-color: color.adjust($fg, $alpha: -0.90);
+        // background-color: $bg;
+        margin: 1rem;
+
+        label{
+            background: $bg;
+            border-radius: $radius;
+            padding: 1rem;
+            margin: 0.7rem;
+        }
+
+        calendar {
+            color: $fg;
+            font-size: 14px;
+            background-color: color.adjust($fg, $alpha: -0.90);
+            border-radius: $radius;
+            border: none;
+
+            *{
+                background-color: transparent;
+            }
+
+            &.header {
+                border: none;
+            }
+
+            &.highlight {
+                color: $fg;
+                font-weight: bold;
+            }
+
+            &:selected {
+                background-color: transparent;
+                border-radius: 8px;
+                color: $accent;
+            }
+
+            &:indeterminate {
+                color: color.adjust($fg, $alpha: -0.50);
+            }
+        }
+    }
+}

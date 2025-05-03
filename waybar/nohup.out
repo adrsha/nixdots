@@ -1,0 +1,411 @@
+[2025-04-25 07:00:45.854] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:00:45.854] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:00:45.856] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:00:45.860] [info] Hyprland IPC starting
+[2025-04-25 07:00:45.861] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:00:45.871] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:00:45.871] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:47.666] [info] Bar configured (width: 509, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:47.699] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.032] [info] Bar configured (width: 524, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.049] [info] Bar configured (width: 557, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.066] [info] Bar configured (width: 587, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.083] [info] Bar configured (width: 614, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.099] [info] Bar configured (width: 639, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.116] [info] Bar configured (width: 662, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.132] [info] Bar configured (width: 682, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.149] [info] Bar configured (width: 701, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.166] [info] Bar configured (width: 717, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.182] [info] Bar configured (width: 732, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.199] [info] Bar configured (width: 745, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.216] [info] Bar configured (width: 757, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.232] [info] Bar configured (width: 766, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.249] [info] Bar configured (width: 775, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.266] [info] Bar configured (width: 782, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.282] [info] Bar configured (width: 788, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.299] [info] Bar configured (width: 793, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.316] [info] Bar configured (width: 797, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.332] [info] Bar configured (width: 800, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.349] [info] Bar configured (width: 802, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.366] [info] Bar configured (width: 804, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.382] [info] Bar configured (width: 805, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:48.399] [info] Bar configured (width: 806, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:49.899] [info] Bar configured (width: 756, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:49.916] [info] Bar configured (width: 710, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:49.932] [info] Bar configured (width: 667, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:49.949] [info] Bar configured (width: 627, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:49.966] [info] Bar configured (width: 589, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:49.982] [info] Bar configured (width: 555, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:49.999] [info] Bar configured (width: 524, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:50.016] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:00:56.947] [info] Quitting.
+[2025-04-25 07:00:56.948] [info] Hyprland IPC stopping...
+[2025-04-25 07:01:01.773] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:01:01.773] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:01:01.775] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:01:01.780] [info] Hyprland IPC starting
+[2025-04-25 07:01:01.780] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:01:01.790] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:01:01.790] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:01:29.235] [info] Quitting.
+[2025-04-25 07:01:29.236] [info] Hyprland IPC stopping...
+[2025-04-25 07:01:29.912] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:01:29.912] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:01:29.913] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:01:29.918] [info] Hyprland IPC starting
+[2025-04-25 07:01:29.918] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:01:29.929] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:01:29.929] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:02:17.523] [info] Quitting.
+[2025-04-25 07:02:17.524] [info] Hyprland IPC stopping...
+[2025-04-25 07:02:18.111] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:02:18.111] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:02:18.112] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:02:18.117] [info] Hyprland IPC starting
+[2025-04-25 07:02:18.118] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:02:18.128] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:02:18.128] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+sh: line 1: kitty: command not found
+[2025-04-25 07:03:09.299] [info] Quitting.
+[2025-04-25 07:03:09.301] [info] Hyprland IPC stopping...
+[2025-04-25 07:03:09.904] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:03:09.904] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:03:09.906] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:03:09.911] [info] Hyprland IPC starting
+[2025-04-25 07:03:09.911] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:03:09.921] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:03:09.921] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+
+(blueberry.py:21984): com.linuxmint.blueberry-WARNING **: 07:03:12.801: DE could not be detected!
+
+(blueberry-tray.py:21992): Gtk-CRITICAL **: 07:03:12.898: gtk_widget_get_scale_factor: assertion 'GTK_IS_WIDGET (widget)' failed
+[2025-04-25 07:04:13.876] [info] Quitting.
+[2025-04-25 07:04:13.877] [info] Hyprland IPC stopping...
+[2025-04-25 07:04:14.586] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:04:14.586] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:04:14.587] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:04:14.592] [info] Hyprland IPC starting
+[2025-04-25 07:04:14.592] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:04:14.602] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:04:14.602] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:04:25.748] [info] Quitting.
+[2025-04-25 07:04:25.749] [info] Hyprland IPC stopping...
+[2025-04-25 07:04:26.313] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:04:26.313] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:04:26.314] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:04:26.319] [info] Hyprland IPC starting
+[2025-04-25 07:04:26.319] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:04:26.330] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:04:26.330] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:04:52.665] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:04:52.666] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:04:58.815] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:04:58.817] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:05:24.348] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:05:24.349] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:05:29.092] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:05:29.115] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:06:25.165] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:06:25.166] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:06:34.815] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:06:34.815] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:06:38.081] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:06:38.082] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:06:59.481] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:06:59.482] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:07:04.614] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:07:04.615] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:07:14.381] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:07:14.382] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:07:53.541] [info] Quitting.
+[2025-04-25 07:07:53.542] [info] Hyprland IPC stopping...
+[2025-04-25 07:07:54.193] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:07:54.193] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:07:54.194] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:07:54.199] [info] Hyprland IPC starting
+[2025-04-25 07:07:54.199] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:07:54.210] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:07:54.210] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:08:56.028] [info] Quitting.
+[2025-04-25 07:08:56.029] [info] Hyprland IPC stopping...
+[2025-04-25 07:08:56.730] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:08:56.730] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:08:56.731] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:08:56.737] [info] Hyprland IPC starting
+[2025-04-25 07:08:56.737] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:08:56.747] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:08:56.748] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:17.097] [info] Bar configured (width: 501, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:17.114] [info] Bar configured (width: 503, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:17.130] [info] Bar configured (width: 504, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:17.147] [info] Bar configured (width: 505, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:17.180] [info] Bar configured (width: 506, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:20.563] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:36.605] [info] Quitting.
+[2025-04-25 07:09:36.606] [info] Hyprland IPC stopping...
+[2025-04-25 07:09:37.146] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:09:37.146] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:09:37.147] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:09:37.152] [info] Hyprland IPC starting
+[2025-04-25 07:09:37.152] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:09:37.163] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:09:37.163] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:38.613] [info] Bar configured (width: 501, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:38.630] [info] Bar configured (width: 502, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:38.647] [info] Bar configured (width: 504, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:38.680] [info] Bar configured (width: 505, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:38.697] [info] Bar configured (width: 506, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:43.147] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:48.501] [info] Quitting.
+[2025-04-25 07:09:48.502] [info] Hyprland IPC stopping...
+[2025-04-25 07:09:49.153] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:09:49.153] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:09:49.155] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:09:49.160] [info] Hyprland IPC starting
+[2025-04-25 07:09:49.160] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:09:49.171] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:09:49.171] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:51.280] [info] Bar configured (width: 501, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:51.297] [info] Bar configured (width: 502, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:51.314] [info] Bar configured (width: 504, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:51.330] [info] Bar configured (width: 505, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:51.364] [info] Bar configured (width: 506, height: 40) for output: HDMI-A-1
+[2025-04-25 07:09:53.280] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:10:44.853] [info] Quitting.
+[2025-04-25 07:10:44.854] [info] Hyprland IPC stopping...
+[2025-04-25 07:10:45.575] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:10:45.575] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:10:45.576] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:10:45.581] [info] Hyprland IPC starting
+[2025-04-25 07:10:45.582] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:10:45.593] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:10:45.593] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:10:56.829] [info] Quitting.
+[2025-04-25 07:10:56.830] [info] Hyprland IPC stopping...
+[2025-04-25 07:10:57.615] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:10:57.615] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:10:57.616] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:10:57.621] [info] Hyprland IPC starting
+[2025-04-25 07:10:57.622] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:10:57.633] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:10:57.633] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:11:28.581] [info] Quitting.
+[2025-04-25 07:11:28.582] [info] Hyprland IPC stopping...
+[2025-04-25 07:11:29.089] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:11:29.089] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:11:29.090] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:11:29.095] [info] Hyprland IPC starting
+[2025-04-25 07:11:29.096] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:11:29.107] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:11:29.107] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:11:46.805] [info] Quitting.
+[2025-04-25 07:11:46.806] [info] Hyprland IPC stopping...
+[2025-04-25 07:11:47.570] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:11:47.570] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:11:47.571] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:11:47.576] [info] Hyprland IPC starting
+[2025-04-25 07:11:47.577] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:11:47.587] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:11:47.587] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:12:11.749] [info] Quitting.
+[2025-04-25 07:12:11.750] [info] Hyprland IPC stopping...
+[2025-04-25 07:12:12.379] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:12:12.380] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:12:12.381] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:12:12.386] [info] Hyprland IPC starting
+[2025-04-25 07:12:12.386] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:12:12.396] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:12:12.396] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:13:32.495] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:13:32.496] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:13:38.780] [info] Bar configured (width: 502, height: 40) for output: HDMI-A-1
+[2025-04-25 07:13:38.929] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:14:16.762] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:14:16.766] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:14:24.095] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:14:24.099] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:14:30.478] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:14:30.479] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:14:56.312] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:14:56.313] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:15:03.462] [info] Bar configured (width: 502, height: 40) for output: HDMI-A-1
+[2025-04-25 07:15:03.595] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:15:05.178] [info] Bar configured (width: 502, height: 40) for output: HDMI-A-1
+[2025-04-25 07:15:05.329] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:15:06.021] [info] Quitting.
+[2025-04-25 07:15:06.022] [info] Hyprland IPC stopping...
+[2025-04-25 07:15:06.802] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:15:06.802] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:15:06.803] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:15:06.808] [info] Hyprland IPC starting
+[2025-04-25 07:15:06.808] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:15:06.819] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:15:06.819] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:15:33.695] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:15:33.695] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:15:38.345] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:15:38.346] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:15:41.573] [info] Quitting.
+[2025-04-25 07:15:41.575] [info] Hyprland IPC stopping...
+[2025-04-25 07:15:42.290] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:15:42.290] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:15:42.292] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:15:42.297] [info] Hyprland IPC starting
+[2025-04-25 07:15:42.297] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:15:42.308] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:15:42.308] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:15:55.211] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:15:55.212] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:16:01.778] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:16:01.779] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:16:03.961] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:16:03.962] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:16:09.918] [info] Quitting.
+[2025-04-25 07:16:09.919] [info] Hyprland IPC stopping...
+[2025-04-25 07:16:10.763] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:16:10.763] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:16:10.764] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:16:10.770] [info] Hyprland IPC starting
+[2025-04-25 07:16:10.770] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:16:10.780] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:16:10.780] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:16:19.261] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:16:19.262] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:17:11.294] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:17:11.295] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:17:31.028] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:17:31.028] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:17:57.044] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:17:57.045] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:18:55.777] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:18:55.778] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:40:35.356] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:40:35.357] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:40:41.123] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:40:41.124] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:45:27.573] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:45:27.574] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:47:35.372] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:47:35.373] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:47:38.022] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:47:38.023] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:47:40.872] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:47:40.874] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:47:48.572] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:47:48.573] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:48:13.956] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:48:13.957] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:55:58.405] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:55:58.406] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:56:14.538] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:56:14.539] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:56:21.854] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:56:21.855] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:56:27.888] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 07:56:27.889] [info] Loading persistent workspaces from Hyprland workspace rules
+
+** (waybar:23771): CRITICAL **: 07:57:30.635: 
+unhandled exception (type Glib::Error) in signal handler:
+domain: gtk-css-provider-error-quark
+code  : 3
+what  : style.css:16:8'height' is not a valid property name
+
+
+** (waybar:23771): CRITICAL **: 07:57:59.070: 
+unhandled exception (type Glib::Error) in signal handler:
+domain: gtk-css-provider-error-quark
+code  : 3
+what  : style.css:17:8'height' is not a valid property name
+
+
+** (waybar:23771): CRITICAL **: 07:58:06.440: 
+unhandled exception (type Glib::Error) in signal handler:
+domain: gtk-css-provider-error-quark
+code  : 3
+what  : style.css:17:8'height' is not a valid property name
+
+[2025-04-25 07:59:04.496] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:59:04.496] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:59:04.497] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:59:04.502] [info] Hyprland IPC starting
+[2025-04-25 07:59:04.502] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:59:04.513] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:59:04.513] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:59:11.637] [info] Quitting.
+[2025-04-25 07:59:11.638] [info] Hyprland IPC stopping...
+[2025-04-25 07:59:16.494] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:59:16.494] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:59:16.496] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:59:16.501] [info] Hyprland IPC starting
+[2025-04-25 07:59:16.501] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:59:16.512] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:59:16.512] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:59:24.989] [info] Quitting.
+[2025-04-25 07:59:24.990] [info] Hyprland IPC stopping...
+[2025-04-25 07:59:26.098] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:59:26.098] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:59:26.099] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:59:26.105] [info] Hyprland IPC starting
+[2025-04-25 07:59:26.105] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:59:26.116] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:59:26.116] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:59:31.069] [info] Quitting.
+[2025-04-25 07:59:31.070] [info] Hyprland IPC stopping...
+[2025-04-25 07:59:31.738] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:59:31.738] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:59:31.739] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:59:31.744] [info] Hyprland IPC starting
+[2025-04-25 07:59:31.745] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:59:31.755] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:59:31.755] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 07:59:52.061] [info] Quitting.
+[2025-04-25 07:59:52.062] [info] Hyprland IPC stopping...
+[2025-04-25 07:59:52.651] [info] Using configuration file /home/chilly/.config/waybar/config.jsonc
+[2025-04-25 07:59:52.652] [info] Including resource file: ~/.config/waybar/modules.jsonc
+[2025-04-25 07:59:52.653] [info] Using CSS file /home/chilly/.config/waybar/style.css
+[2025-04-25 07:59:52.658] [info] Hyprland IPC starting
+[2025-04-25 07:59:52.658] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 07:59:52.669] [warning] Requested height: 34 is less than the minimum height: 40 required by the modules
+[2025-04-25 07:59:52.669] [info] Bar configured (width: 500, height: 40) for output: HDMI-A-1
+[2025-04-25 08:00:48.703] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:00:48.704] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:17:47.947] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:17:47.947] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:17:52.567] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:17:52.580] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:18:21.346] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:18:21.347] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:18:30.280] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:18:30.281] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:18:37.280] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:18:37.281] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:18:41.663] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:18:41.664] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:18:44.263] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:18:44.264] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:18:48.480] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:18:48.481] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:19:58.072] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:19:58.080] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:29:40.626] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:29:40.627] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:29:57.859] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:29:57.860] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:30:04.866] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:30:04.877] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:30:07.010] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:30:07.011] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:30:25.826] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:30:25.827] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:33:58.692] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:33:58.692] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:34:10.375] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:34:10.376] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:40:36.774] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:40:36.775] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:40:42.773] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:40:42.774] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:40:50.173] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:40:50.174] [info] Loading persistent workspaces from Hyprland workspace rules
+[2025-04-25 08:40:57.607] [info] Hyprland config reloaded, reinitializing hyprland/workspaces module...
+[2025-04-25 08:40:57.607] [info] Loading persistent workspaces from Hyprland workspace rules

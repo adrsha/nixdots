@@ -1,0 +1,306 @@
+* {
+  border: none;
+  box-shadow: none;
+}
+
+.mainBar {
+  background: transparent;
+}
+
+.systrayWidget > button {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.workspaceContainerContainer,
+.volumeWidgetContainerContainer {
+  background: transparent;
+}
+
+.volumeWidgetContainer {
+  margin: 5px;
+  padding-right: 10px;
+  background: #0e161b;
+  font-size: 16px;
+  border-radius: 2px;
+}
+
+.volumeWidget {
+  min-width: 100px;
+  padding-left: 10px;
+}
+
+.musicWidgetContainer {
+  margin: 5px;
+  background: #0e161b;
+  font-size: 16px;
+  border-radius: 2px;
+  padding-right: 10px;
+}
+.musicWidget {
+  padding-left: 10px;
+}
+
+slider {
+  /* background-size: 10px 20px; */
+  /* min-width: 15px; */
+  /* min-height: 23px; */
+  background: transparent;
+  border-radius: 0 20px 20px 0;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: -16px;
+  margin-bottom: -16px;
+}
+
+highlight {
+  border-radius: 50px 50px 50px 50px;
+  margin-top: -13px;
+  margin-bottom: -13px;
+  background: #0a0e0f;
+}
+
+trough {
+  min-height: 6px;
+  margin-right: 4px;
+  margin-left: 4px;
+  border-radius: 2px;
+  background: transparent;
+}
+
+.hyprlandClients {
+  margin-left: 10px;
+  margin-right: 10px;
+  background: #0e161b;
+  border-radius: 2px;
+}
+.active-client {
+  background: #0e161b;
+  padding: 0px;
+  padding-right: 10px;
+}
+
+.active-client .client-icon {
+  background: #8ccf7e;
+  padding: 5px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.inactive-client {
+  background: #0e161b;
+  padding: 5px;
+}
+
+.active-client,
+.inactive-client {
+  margin: 5px;
+  margin-top: 0px;
+  border-radius: 2px;
+  transition: background 0.2s;
+  font-family: "JetBrainsMono Nerd Font";
+}
+.active-client:hover,
+.inactive-client:hover {
+  background: #232a2d;
+}
+
+.musicWidgetIcon,
+.volumeWidgetIcon,
+.batteryWidgetIcon,
+.dateWidgetIcon,
+.bluetoothWidgetIcon,
+.networkIcon {
+  background: #8ccf7e;
+  color: #0a0e0f;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.workspaceContainer {
+  padding-left: 10px;
+}
+
+.bluetoothWidgetContainer,
+.players,
+.networkWidget,
+.focusedTitle,
+.workspaceContainer,
+.batteryWidget,
+.dateWidget {
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: 600;
+  font-size: 15px;
+  padding-right: 10px;
+  background: #0e161b;
+  border-radius: 2px;
+  margin: 5px;
+  transition: 0.5s ease;
+}
+
+.lowBattery {
+  color: #e57474;
+}
+
+.batteryChargeIndicator {
+  font-size: 20px;
+  color: #8ccf7e;
+  padding: 0px;
+}
+
+.workspace {
+  background: #0e161b;
+  font-size: 10px;
+  margin: 0;
+  padding: 5px;
+}
+
+.workspace > label {
+  color: #232a2d;
+}
+
+.activeWorkspace > label {
+  color: #dadada;
+}
+
+.activeWorkspace {
+  animation: blink 1s alternate;
+}
+
+.appLauncher {
+  font-family: "JetBrainsMono Nerd Font";
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.appLauncherItemContainer {
+  padding: 0px;
+  border-radius: 2px;
+  background: #0e161b;
+  color: #dadada;
+  font-size: 18px;
+  font-weight: 600;
+}
+.appLauncherItemContainer:first-child {
+  font-weight: 900;
+}
+
+.appLauncherItemContainer:focus {
+  background: #8ccf7e;
+  color: #0a0e0f;
+  padding: 10px;
+  padding-right: 0px;
+  font-weight: 900;
+}
+.appLauncherItemContainer:focus .appLauncherItemIcon {
+  margin-right: 2px;
+  background: #4c6f5e;
+}
+
+.appLauncherItemIcon {
+  padding: 10px;
+  border-radius: 2px;
+  background: #0e161b;
+  margin-right: 10px;
+  border-right: 5px solid #8ccf7e;
+  box-shadow: 8px 0px 0px rgba(140, 207, 126, 0.2);
+}
+
+.appLauncherContainer {
+  border-radius: 0 10px 10px 0;
+  background: #0a0e0f;
+}
+
+.appLauncherSearchContainer {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.appLauncherSearchIcon {
+  border-radius: 2px;
+  padding: 10px;
+  background: #8ccf7e;
+  color: #0a0e0f;
+}
+.appLauncherSearch {
+  border-radius: 2px;
+  padding-left: 20px;
+  background: #0a0e0f;
+}
+
+.notification-popups,
+.notifications {
+  padding: 0.5em;
+  background: transparent;
+}
+
+.notificon {
+  min-width: 68px;
+  min-height: 68px;
+  margin-right: 1em;
+}
+
+.notificon image {
+  font-size: 58px;
+  margin: 5px;
+  color: #dadada;
+}
+
+.notificon box {
+  min-width: 68px;
+  min-height: 68px;
+  border-radius: 7px;
+}
+
+.notiftitle {
+  color: #dadada;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+.notifbody {
+  color: #9a9a9a;
+}
+
+.notifactions .notifaction-button {
+  margin: 0 0.4em;
+  margin-top: 0.8em;
+  padding: 10px;
+  background: #0e161b;
+  color: #dadada;
+}
+
+.notifactions .notifaction-button:first-child {
+  margin-left: 0;
+}
+
+.notifactions .notifaction-button:last-child {
+  margin-right: 0;
+}
+
+.notification {
+  min-width: 350px;
+  border-radius: 11px;
+  padding: 1em;
+  margin: 0.5em;
+  background: #0c1012;
+}
+
+.notification.critical {
+  border: 1px solid lightcoral;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

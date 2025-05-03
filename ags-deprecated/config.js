@@ -298,8 +298,9 @@ function mainBar(monitor = 0) {
                   self.children = bluetooth.connected_devices.map(
                     ({ icon_name, name }) =>
                       Widget.Box([
+                        Widget.Label(" "),
                         Widget.Icon(icon_name + "-symbolic"),
-                        Widget.Label(name),
+                        Widget.Label(" " + name),
                       ]),
                   );
 
@@ -547,7 +548,7 @@ function mainBar(monitor = 0) {
     monitor,
     name: "bar",
     layer: "top",
-    exclusivity: "normal",
+    exclusivity: "exclusive",
     margins: [0, 5],
     class_name: "mainBar",
     anchor: ["top", "left", "right"],
