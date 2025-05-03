@@ -30,4 +30,3 @@
 
 (add-hook 'org-src-mode-hook #'(lambda () (interactive) (setq header-line-format 'nil)))
 (add-hook 'org-capture-mode-hook #'(lambda () (interactive) (setq header-line-format 'nil)))
-

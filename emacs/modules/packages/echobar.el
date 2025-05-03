@@ -345,7 +345,7 @@ Can be 'left, 'right, or 'center."
                  (const :tag "Right" right)
                  (const :tag "Center" center)))
 
-(defcustom echo-bar-height 140
+(defcustom echo-bar-height 130
   "Height of the echo bar text as a percentage of the default face height."
   :group 'echo-bar
   :type 'integer)

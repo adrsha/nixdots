@@ -1,3 +1,5 @@
+(setenv "LSP_USE_PLISTS" "true")
+
 (add-to-list 'default-frame-alist '(internal-border-width . 40 ))
 (add-to-list 'default-frame-alist '(internal-show-cursor . -1))
 (add-to-list 'default-frame-alist '(alpha-background . 100))

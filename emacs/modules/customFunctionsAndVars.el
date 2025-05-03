@@ -1,6 +1,6 @@
 (load-file "~/.config/emacs/modules/colors.el")
 
-(defvar cust-monospace "JetBrainsMono Nerd Font"
+(defvar cust-monospace "MartianMono Nerd Font"
   "The monospace font for emacs.")
 (defvar cust-serif "Autour One"
   "The serif font for emacs.")

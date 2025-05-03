@@ -195,9 +195,9 @@
     :keymaps 'evil-insert-state-map
     "C-h" 'nil
     "C-f" 'find-file-at-point
-    "C-k" 'corfu-previous
-    "C-j" 'corfu-next
-    "C-l" 'completion-at-point
+    ;; "C-k" 'corfu-previous
+    ;; "C-j" 'corfu-next
+    ;; "C-l" 'completion-at-point
     )
 
   (general-def

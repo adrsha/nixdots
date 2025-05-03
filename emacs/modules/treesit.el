@@ -34,9 +34,14 @@
 (add-to-list 'treesit-language-source-alist '(typescript "https://github.com/tree-sitter/tree-sitter-typescript" "master" "typescript/src"))
 (add-to-list 'treesit-language-source-alist '(tsx "https://github.com/tree-sitter/tree-sitter-typescript" "master" "tsx/src"))
 
+;; Rust
+(add-to-list 'treesit-language-source-alist '(rust "https://github.com/tree-sitter/tree-sitter-rust"))
+(add-to-list 'major-mode-remap-alist '(rust-mode . rust-ts-mode))
+
 (add-to-list 'major-mode-remap-alist '(typescript-mode . typescript-ts-mode))
 (add-to-list 'major-mode-remap-alist '(tsx-mode . tsx-ts-mode))
 
+(add-to-list 'auto-mode-alist '("\\.rs\\'" . rust-ts-mode))
 (add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-ts-mode))
 (add-to-list 'auto-mode-alist '("\\.tsx\\'" . tsx-ts-mode))
 

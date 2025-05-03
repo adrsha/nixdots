@@ -30,6 +30,7 @@
  dired-use-ls-dired nil
  dired-kill-when-opening-new-dired-buffer t
  evil-want-keybinding nil
+ line-spacing 2
  )     
 
 (if (boundp 'comp-deferred-compilation)

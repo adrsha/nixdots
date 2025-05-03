@@ -18,15 +18,15 @@ multiplier = 4
 # normal = { family = "Martian Mono Nerd Font", style = "Medium"}
 # normal = { family = "Iosevka Nerd Font", style = "SemiBold"}
 
-normal = { family = "JetBrains Mono Nerd Font"}
-bold = { family = "JetBrains Mono Nerd Font", style = "Bold"}
+normal = { family = "MartianMono Nerd Font"}
+bold = { family = "MartianMono Nerd Font", style = "Bold"}
 # normal = { family = "JetBrains Mono Nerd Font", style = "SemiBold"}
 # bold = { family = "JetBrains Mono Nerd Font", style = "ExtraBold"}
 italic = { family = "JetBrains Mono Nerd Font", style = "Italic"}
 bold_italic = { family = "JetBrains Mono Nerd Font", style = "ExtraBold Italic"}
 
 # normal = { family = "FantasqueSansM Nerd Font Mono", style = "SemiBold"}
-size = 13.0
+size = 12.0
 offset.x = 0
 offset.y = 2
 glyph_offset.x = 0

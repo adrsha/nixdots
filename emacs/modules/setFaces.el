@@ -1,8 +1,8 @@
 (defun configure-font ()
   "Configure font given initial non-daemon FRAME.
  Intended for `after-make-frame-functions'."
- (set-face-attribute 'default nil :font cust-monospace :height 130 :weight 'normal)
- (set-face-attribute 'fixed-pitch nil :font cust-monospace :height 130)
+ (set-face-attribute 'default nil :font cust-monospace :height 120 :weight 'normal)
+ (set-face-attribute 'fixed-pitch nil :font cust-monospace :height 120)
  (set-face-attribute 'variable-pitch nil :font cust-sans-serif :height 150)
  (set-face-attribute 'font-lock-comment-face nil :slant 'italic)
  (set-face-attribute 'font-lock-keyword-face nil :slant 'italic)
@@ -38,7 +38,7 @@
   (interactive)
   (set-face-attribute 'vertico-current nil :foreground onPrimary :weight 'semibold :background darkBase)
   (set-face-attribute 'vertico-multiline nil :weight 'semibold :height 170)
-  (set-face-attribute 'minibuffer-prompt nil :foreground onSecondary :weight 'semibold :background base :height 140)
+  (set-face-attribute 'minibuffer-prompt nil :foreground onSecondary :weight 'semibold :background base :height 120)
   ;; (set-face-attribute 'minibuffer-face nil :height 170 )
   )
 (add-hook 'server-after-make-frame-hook #'configure-vertico-font)
@@ -140,10 +140,10 @@
 (defun configure-corfu-font ()
   "Configure font for Corfu."
   (when (facep 'corfu-default)  ;; Check if face exists before modifying
-    (set-face-attribute 'corfu-bar nil :height 130 :background darkBase :foreground surface1 :weight 'semibold)
-    (set-face-attribute 'corfu-default nil :height 130 :background darkBase :foreground surface1 :weight 'semibold)
-    (set-face-attribute 'corfu-current nil :height 130 :foreground text :background base :weight 'semibold)
-    (set-face-attribute 'corfu-annotations nil :height 130 :foreground surface1 :weight 'semibold)))
+    (set-face-attribute 'corfu-bar nil :height 120 :background darkBase :foreground surface1 :weight 'semibold)
+    (set-face-attribute 'corfu-default nil :height 120 :background darkBase :foreground surface1 :weight 'semibold)
+    (set-face-attribute 'corfu-current nil :height 120 :foreground text :background base :weight 'semibold)
+    (set-face-attribute 'corfu-annotations nil :height 120 :foreground surface1 :weight 'semibold)))
 
 ;; Run this after Corfu has loaded
 (with-eval-after-load 'corfu

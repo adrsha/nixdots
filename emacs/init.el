@@ -20,9 +20,10 @@
 (load-file "~/.config/emacs/modules/packages/theme.el");
 (load-file "~/.config/emacs/modules/packages/org.el");
 (load-file "~/.config/emacs/modules/packages/lsp.el");
-(load-file "~/.config/emacs/modules/packages/corfu.el");
+(load-file "~/.config/emacs/modules/packages/company.el");
 (load-file "~/.config/emacs/modules/packages/ai.el");
 (load-file "~/.config/emacs/modules/packages/fileManagement.el");
+(load-file "~/.config/emacs/modules/packages/codium.el");
 
 ;; Customizing looks
 (load-file "~/.config/emacs/modules/setFaces.el");
@@ -34,4 +35,4 @@
 (load-file "~/.config/emacs/modules/astro.el");
 
 ;; Custom packages
-(load-file "~/.config/emacs/modules/echobar.el");
+(load-file "~/.config/emacs/modules/packages/echobar.el");

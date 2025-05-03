@@ -61,126 +61,180 @@
     extraGroups = [ "wheel" ];  # Enable 'sudo' for the user
     shell = pkgs.fish;  # Set the default shell to fish
     packages = with pkgs; [
-      tldr  # Command documentation tool
-      blueberry  # Bluetooth manager
-      brightnessctl  # Brightness control utility
-      gnumake  # GNU Make
-      nix-search-cli  # CLI tool for searching Nix packages
-      xorg.xset  # X server settings utility
-      xorg.xhost
-      xorg.xrandr
-      xorg.libxcvt
-      udiskie  # Automount removable media
-      efibootmgr
-      libnotify  # Desktop notifications library
-      killall  # Process termination utility
-      imagemagick  # Image manipulation
-      gnupg
 
-      # System Monitoring
-      btop  # System monitor
-      neofetch  # System info display
 
-      # Terminal Utilities
-      alacritty  # GPU-accelerated terminal emulator
-      fzf  # Fuzzy finder
-      fd  # Fast alternative to find
-      bat  # Cat clone with syntax highlighting
-      ripgrep  # Fast grep alternative
-      zoxide  # Smarter cd command
-      lsd  # Modern ls alternative
-      clipse  # Clipboard manager
-      ueberzugpp  # Image viewer for terminal
-      wev
-      ydotool
-      anydesk
-      waybar
-      matugen
-      onefetch
+######################################
+#         SYSTEM UTILITIES           #
+######################################
 
-      # Development Tools
-      cargo  # Rust package manager
-      cmake  # Cross-platform build system
-      ninja  # Build system focused on speed
-      python3  # Python programming language
-      yt-dlp
-      emacs-pgtk
-      ollama-cuda
-      vscode
+brightnessctl         # Brightness control utility  
+efibootmgr            # EFI boot manager  
+gnumake               # GNU Make  
+gnupg                 # GNU Privacy Guard  
+killall               # Process termination utility  
+libnotify             # Desktop notifications  
+util-linux            # Miscellaneous essential utilities  
+udiskie               # Automount removable media  
+xorg.xset             # X server settings utility  
+xorg.xhost  
+xorg.xrandr  
+xorg.libxcvt  
 
-      # Programming Languages and Toolchains
-      flutter  # UI toolkit for mobile, web, and desktop
-      wbg
+######################################
+#     SYSTEM MONITORING & STATS      #
+######################################
 
-      # Language Servers for code completion and analysis
-      vscode-langservers-extracted
-      astro-language-server
-      cpplint
-      nodePackages.prettier
-      lua-language-server
-      pyright
-      typescript-language-server
-      typescript
-      nil  # Nix language server
-      jq-lsp
-      bash-language-server
-      rust-analyzer
+btop                  # Resource monitor  
+neofetch              # System info in terminal  
+lm_sensors            # Hardware sensor readings  
+mangohud              # GPU performance overlay  
 
-      # Plugins
-      fishPlugins.tide  # Fish shell theme
+######################################
+#         TERMINAL TOOLS             #
+######################################
 
-      # Qt and UI Libraries
-      qt5.full  # Qt5 framework
+alacritty             # GPU-accelerated terminal emulator  
+fzf                   # Fuzzy finder  
+fd                    # Fast alternative to find  
+bat                   # Modern cat with syntax highlighting  
+ripgrep               # Fast grep alternative  
+zoxide                # Smarter cd command  
+lsd                   # Modern ls alternative  
+tldr                  # Simplified man pages  
+onefetch              # Git repo summary  
+ueberzugpp            # Terminal image preview  
+clipse                # Clipboard manager  
+wev                   # Wayland event viewer  
+ydotool               # Input emulation for Wayland  
 
-      # Desktop Environment Tools
-      inputs.ags.packages."${system}".default 
-      inputs.astal.packages."${system}".default 
-      inputs.astal.packages."${system}".hyprland 
-      inputs.astal.packages."${system}".mpris 
-      inputs.astal.packages."${system}".bluetooth 
-      inputs.astal.packages."${system}".wireplumber 
-      inputs.astal.packages."${system}".network 
-      inputs.astal.packages."${system}".tray 
-      inputs.astal.packages."${system}".notifd 
-      # gobject-introspection
-      
-      swww  # Wallpaper manager for Wayland
-      hyprpicker  # Color picker for Hyprland
-      grim  # Screenshot utility for Wayland
-      slurp  # Region selection tool for Wayland
-      playerctl  # Media player controller
-      util-linux 
-      xfce.thunar
-      
-      # GTK themes and tools
-      gtk3
-      gtk4
-      nwg-look  # GTK settings editor
-      adwaita-icon-theme
-      graphite-gtk-theme
+######################################
+#        REMOTE ACCESS TOOLS         #
+######################################
 
-      # Multimedia
-      mpv  # Media player
-      imv  # Image viewer
-      # Compression and Archiving
-      unzip  # Extraction utility
-      zip
+anydesk               # Remote desktop client  
 
-      # Browsers and Internet
-      inputs.zen-browser.packages."${system}".default  # Browser
-      chromium
-      qbittorrent  # Torrent client
+######################################
+#          DEVELOPMENT TOOLS         #
+######################################
 
-      # Game Engines
-      godot_4  # Game development engine
+cargo                 # Rust package manager  
+cmake                 # Build system  
+ninja                 # Build system backend  
+python3               # Python interpreter  
+yt-dlp                # Media downloader (dev utility use case)  
+vscode                # Code editor  
+emacs-pgtk            # Emacs variant with GTK  
+ollama-cuda           # LLM CLI with CUDA  
 
-      # GPU utils
-      mangohud
-      lm_sensors
-      cudatoolkit
-      mesa
-      linux-firmware
-      inputs.prism.packages."${system}".default 
+######################################
+#        PROGRAMMING LANGUAGES       #
+######################################
+
+flutter               # UI toolkit for app development  
+typescript            # JavaScript superset  
+wbg                   # Likely a WebAssembly or Rust-related tool  
+
+######################################
+#   LINTING & LANGUAGE SERVERS (LSP) #
+######################################
+
+astro-language-server  
+bash-language-server  
+cpplint               # C++ linter  
+jq-lsp                # JSON language server  
+lua-language-server  
+nil                   # Nix language server  
+nodePackages.prettier # Code formatter  
+pyright               # Python language server  
+rust-analyzer         # Rust language server  
+rustc
+typescript-language-server  
+vscode-langservers-extracted  
+
+######################################
+#        SHELL PLUGINS / THEMES      #
+######################################
+
+fishPlugins.tide      # Fish shell theme  
+
+######################################
+#              GUI TOOLKITS          #
+######################################
+
+qt5.full              # Qt5 libraries  
+gtk3                  # GTK 3 UI toolkit  
+gtk4                  # GTK 4 UI toolkit  
+
+######################################
+#            GTK CUSTOMIZATION       #
+######################################
+
+nwg-look              # GTK appearance editor  
+adwaita-icon-theme    # Default GNOME icon theme  
+graphite-gtk-theme    # Custom GTK theme  
+
+######################################
+#     WAYLAND / DESKTOP COMPONENTS   #
+######################################
+
+inputs.ags.packages."${system}".default  
+inputs.astal.packages."${system}".default  
+inputs.astal.packages."${system}".hyprland  
+inputs.astal.packages."${system}".mpris  
+inputs.astal.packages."${system}".bluetooth  
+inputs.astal.packages."${system}".wireplumber  
+inputs.astal.packages."${system}".network  
+inputs.astal.packages."${system}".tray  
+inputs.astal.packages."${system}".notifd  
+swww                  # Wayland wallpaper daemon  
+grim                  # Screenshot tool  
+slurp                 # Selection tool for grim  
+playerctl             # Media controller  
+hyprpicker            # Color picker  
+waybar                # Wayland bar  
+matugen               # Material color generator  
+blueberry             # Bluetooth GUI  
+xfce.thunar           # File manager  
+
+######################################
+#             MULTIMEDIA             #
+######################################
+
+mpv                   # Media player  
+imv                   # Lightweight image viewer  
+imagemagick           # Image manipulation  
+
+######################################
+#     COMPRESSION / ARCHIVING TOOLS  #
+######################################
+
+unzip                 # Unzip utility  
+zip                   # Zip creation utility  
+
+######################################
+#         INTERNET & BROWSERS        #
+######################################
+
+inputs.zen-browser.packages."${system}".default  
+chromium              # Web browser  
+qbittorrent           # BitTorrent client  
+
+######################################
+#            GAME ENGINES            #
+######################################
+
+godot_4               # Game engine  
+inputs.prism.packages."${system}".default  
+
+######################################
+#             GPU TOOLS              #
+######################################
+
+cudatoolkit           # CUDA libraries  
+mesa                  # Graphics drivers  
+linux-firmware        # Firmware blobs  
+
+
     ];
   };
 
@@ -330,7 +384,7 @@ environment.sessionVariables = {
   # ╰───────────────────────────╯
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono  # Developer font with icons
-    nerd-fonts.space-mono  # Developer font with icons
+    nerd-fonts.martian-mono  # Developer font with icons
     nerd-fonts.iosevka  # Slender monospace font with icons
   ];
 
