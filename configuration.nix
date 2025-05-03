@@ -330,6 +330,7 @@ environment.sessionVariables = {
   # ╰───────────────────────────╯
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono  # Developer font with icons
+    nerd-fonts.space-mono  # Developer font with icons
     nerd-fonts.iosevka  # Slender monospace font with icons
   ];
 

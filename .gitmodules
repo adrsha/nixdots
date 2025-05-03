@@ -7,3 +7,6 @@
 [submodule "nvim-perf"]
 	path = nvim-perf
 	url = https://github.com/adrsha/nvim-perf
+[submodule "Google-Sans-Font"]
+	path = Google-Sans-Font
+	url = https://github.com/hprobotic/Google-Sans-Font/
