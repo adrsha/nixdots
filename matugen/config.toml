@@ -16,20 +16,21 @@ arguments = ["img", "--transition-type", "center"]
 input_path = './templates/waybar.css'
 output_path = '~/.config/waybar/colors.css'
 
-[templates.alacritty]
-input_path = './templates/alacritty.toml'
-output_path = '~/.config/alacritty/alacritty.toml'
+# [templates.alacritty]
+# input_path = './templates/alacritty.toml'
+# output_path = '~/.config/alacritty/alacritty.toml'
 
 [templates.nvim]
 input_path = './templates/nvim.lua'
 output_path = '~/.config/nvim/lua/chadrc.lua'
-post_hook = 'nvim ~/.config/nvim/lua/chadrc.lua'
+post_hook = 'nvim -c "ReloadNvChad" -c "qa"'
 
 [templates.emacs]
 input_path = './templates/emacs.el'
 output_path = '~/.config/emacs/modules/colors.el'
-post_hook = 'cd ~ && ~/Scripts/emacsRestart.sh'
+# post_hook = 'cd ~ && ~/Scripts/emacsRestart.sh'
 
 [templates.ags]
 input_path = './templates/ags.scss'
 output_path = '~/.config/ags/colors.scss'
+post_hook = '~/Scripts/agsRestart.sh'
