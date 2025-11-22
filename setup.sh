@@ -83,6 +83,28 @@ if ask "Setup mako config?"; then
     fi
 fi
 
+
+# Wezterm
+if ask "Setup wezterm config?"; then
+    if [ ! -d ~/.config/wezterm ]; then
+        echo "Setting up wezterm..."
+        ln -sf "$SCRIPT_DIR/wezterm" ~/.config/wezterm
+    else
+        echo "wezterm config already exists."
+    fi
+fi
+
+# Kitty
+if ask "Setup Kitty?"; then
+    if [ ! -f ~/.config/kitty/kitty.conf ]; then
+        echo "Setting up Kitty..."
+        mkdir -p ~/.config/kitty
+        ln -sf "$SCRIPT_DIR/modules/kitty.conf" ~/.config/kitty/kitty.conf
+    else
+        echo "Kitty is already configured."
+    fi
+fi
+
 # Hardware configuration (only for NixOS)
 if grep -qi "nixos" /etc/os-release 2>/dev/null; then
     if ask "Copy hardware-configuration.nix to flakes dir?"; then
