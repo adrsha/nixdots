@@ -1,8 +1,8 @@
 # Font Configuration
 font-size = 13
-font-family = CommitMono Nerd Font
-adjust-cell-width = 0%
-adjust-cell-height = 30%
+# font-family = CommitMono Nerd Font
+# adjust-cell-width = 0%
+# adjust-cell-height = 30%
 
 # Window Configuration
 window-decoration = false
@@ -12,7 +12,7 @@ background-opacity = 1.0
 background-blur-radius = 32
 
 # Cursor Configuration
-# cursor-style = block
+cursor-style = bar
 cursor-style-blink = true
 
 # Scrollback
@@ -43,6 +43,6 @@ keybind = shift+enter=text:\n
 gtk-single-instance = true
 
 # color generation
-config-file = ./themes/darkblush
-config-file = ./colors.conf
+config-file = ./themes/chadtain
+# config-file = ./colors.conf
 custom-shader = ./shaders/ghostty-cursor-shaders/cursor_warp.glsl

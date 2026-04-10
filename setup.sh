@@ -22,6 +22,15 @@ if ask "Setup Hyprland?"; then
     fi
 fi
 
+if ask "Setup ghostty?"; then
+    if [ ! -d ~/.config/ghostty ]; then
+        echo "Setting up ghostty..."
+        ln -sf "$SCRIPT_DIR/ghostty" ~/.config/ghostty
+    else
+        echo "ghostty config already exists."
+    fi
+fi
+
 # Neovim
 if ask "Setup Neovim?"; then
     if [ ! -d ~/.config/nvim ]; then
@@ -60,48 +69,6 @@ if ask "Setup lsd config?"; then
         ln -sf "$SCRIPT_DIR/lsd" ~/.config/lsd
     else
         echo "lsd config already exists."
-    fi
-fi
-
-# waybar
-if ask "Setup waybar config?"; then
-    if [ ! -d ~/.config/waybar ]; then
-        echo "Setting up waybar..."
-        ln -sf "$SCRIPT_DIR/waybar" ~/.config/waybar
-    else
-        echo "Waybar config already exists."
-    fi
-fi
-
-# mako
-if ask "Setup mako config?"; then
-    if [ ! -d ~/.config/mako ]; then
-        echo "Setting up mako..."
-        ln -sf "$SCRIPT_DIR/mako" ~/.config/mako
-    else
-        echo "Mako config already exists."
-    fi
-fi
-
-
-# Wezterm
-if ask "Setup wezterm config?"; then
-    if [ ! -d ~/.config/wezterm ]; then
-        echo "Setting up wezterm..."
-        ln -sf "$SCRIPT_DIR/wezterm" ~/.config/wezterm
-    else
-        echo "wezterm config already exists."
-    fi
-fi
-
-# Kitty
-if ask "Setup Kitty?"; then
-    if [ ! -f ~/.config/kitty/kitty.conf ]; then
-        echo "Setting up Kitty..."
-        mkdir -p ~/.config/kitty
-        ln -sf "$SCRIPT_DIR/modules/kitty.conf" ~/.config/kitty/kitty.conf
-    else
-        echo "Kitty is already configured."
     fi
 fi
 
