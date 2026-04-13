@@ -92,12 +92,12 @@ if status is-interactive
         nix-search $argv | fzf | awk '{print $1}' | while read -l package;
         nix-env -iA "nixos.$package" || nix-env -iA "nixpkgs.$package" || echo "Package $package not found in nixpkgs or nixos.";
     end
-    
+
 end
 function clrdir -d "Clear directory contents with optional preview and exclusions"
     set -l show_preview false
     set -l exclude_patterns
-    
+
     # Parse arguments
     for arg in $argv
         switch $arg
@@ -112,11 +112,11 @@ function clrdir -d "Clear directory contents with optional preview and exclusion
                 end
         end
     end
-    
+
     # Get all items (including hidden, excluding . and ..)
     set -l all_items (ls -A)
     set -l items_to_delete
-    
+
     # Filter out excluded patterns
     for item in $all_items
         set -l should_exclude false
@@ -130,19 +130,19 @@ function clrdir -d "Clear directory contents with optional preview and exclusion
             set -a items_to_delete $item
         end
     end
-    
+
     if test (count $items_to_delete) -eq 0
         echo "📁 Directory is already empty (or all items excluded)"
         return
     end
-    
+
     # Show preview if requested
     if test $show_preview = true
         echo "📋 Items to be deleted:"
         printf "  %s\n" $items_to_delete
         echo
     end
-    
+
     echo "🧹 Cleaning..."
     rm -rf -- $items_to_delete 2>/dev/null
     and echo "✅ Deleted "(count $items_to_delete)" item(s)"

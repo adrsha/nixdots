@@ -6,11 +6,12 @@
     TERM = "xterm-256color";
     DISPLAY = ":0";
     RUST_BACKTRACE = "full";
+    OLLAMA_API_BASE = "http://127.0.0.1:11434";
 
-    XDG_SESSION_TYPE = "wayland";
-    XDG_SESSION_DESKTOP = "Hyprland";
-    XDG_CURRENT_DESKTOP = "Hyprland";
-    HYPRLAND_TRACE = "1";
+    # XDG_SESSION_TYPE = "wayland";
+    # XDG_SESSION_DESKTOP = "Hyprland";
+    # XDG_CURRENT_DESKTOP = "Hyprland";
+    # HYPRLAND_TRACE = "1";
 
     # Nvidia Optimizations
     # WLR_NO_HARDWARE_CURSORS = "1";
@@ -75,6 +76,7 @@
   };
 
   fonts.packages = with pkgs; [
+    adwaita-fonts
     nerd-fonts.adwaita-mono
     nerd-fonts.jetbrains-mono
     nerd-fonts.martian-mono
@@ -102,6 +104,7 @@
 
     packages = with pkgs; [
       ghostty
+      alacritty
 
       # terminal commands
       bat
@@ -115,11 +118,19 @@
       tdf
       tldr
       zoxide
+      ueberzugpp
+      zip
+      bottom
+      unzip
+      file
+      yt-dlp
 
       # shell plugins
       fishPlugins.tide
 
       # desktop utils
+      gtk4
+      gtk3
       brightnessctl
       firefox
       grim
@@ -127,8 +138,11 @@
       slurp
       wl-clipboard-rs
       nwg-look
+      vesktop
+      vicinae
 
       # Themes
+      oreo-cursors-plus
       amarena-theme
       whitesur-icon-theme
       nordzy-icon-theme
@@ -139,6 +153,11 @@
       playerctl
       awww
       yt-dlp
+      spotify
+
+      # AI
+      opencode
+      alpaca
 
       # build systems
       cmake
@@ -146,6 +165,9 @@
 
       # languages
       rustup
+      python315
+      luarocks
+      lua5_1
 
       # language servers
       astro-language-server
@@ -158,7 +180,7 @@
       rustc
       typescript-language-server
       vscode-langservers-extracted
-
+      tree-sitter
     ];
   };
 

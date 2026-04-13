@@ -62,6 +62,24 @@ if ask "Setup fish shell config?"; then
     fi
 fi
 
+if ask "Setup vicinae?"; then
+    if [ ! -d ~/.config/vicinae ]; then
+        echo "Setting up vicinae..."
+        ln -sf "$SCRIPT_DIR/vicinae" ~/.config/vicinae
+    else
+        echo "vicinae themes already exist"
+    fi
+fi
+
+if ask "Setup vicinae themes?"; then
+    if [ ! -d ~/.local/share/vicinae/themes ]; then
+        echo "Setting up vicinae..."
+        ln -sf "$SCRIPT_DIR/vicinae-themes" ~/.local/share/vicinae/themes
+    else
+        echo "vicinae themes already exist"
+    fi
+fi
+
 # lsd
 if ask "Setup lsd config?"; then
     if [ ! -d ~/.config/lsd ]; then
@@ -81,3 +99,4 @@ if grep -qi "nixos" /etc/os-release 2>/dev/null; then
 else
     echo "Not a NixOS system — skipping hardware configuration."
 fi
+
