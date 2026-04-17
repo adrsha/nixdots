@@ -124,6 +124,10 @@
       unzip
       file
       yt-dlp
+      android-tools
+      payload-dumper-go
+      ddcutil
+      ventoy
 
       # shell plugins
       fishPlugins.tide
@@ -219,6 +223,11 @@
     "flakes"
   ];
 
+  nixpkgs.config.permittedInsecurePackages = [
+    "ventoy-1.1.10"
+  ];
+
+  hardware.i2c.enable = true;
   hardware.bluetooth.enable = true;
   hardware.bluetooth.powerOnBoot = true;
   hardware.graphics.enable = true;
