@@ -9,7 +9,7 @@ accent = "#4c685f"                # soft green highlight
 accent_foreground = "#131C19"    # dark text on accent
 background = "#131C19"
 foreground = "#444F4C"
-secondary_background = "#131c19"
+secondary_background = "colors.core.background"
 border = "colors.core.background"
 
 [colors.main_window]
@@ -17,7 +17,7 @@ border = "colors.core.background"
 footer = { background = "colors.core.secondary_background" }
 
 [colors.settings_window]
-border = "#131c19"
+border = "#395242"
 
 [colors.accents]
 blue = "#41575c"
@@ -30,7 +30,7 @@ cyan = "#395242"
 purple = "#5e526a"
 
 [colors.shortcut]
-border = "colors.core.background"
+border = "colors.core.border"
 
 [colors.text]
 default = "#444F4C"
@@ -45,7 +45,7 @@ default = "#4c685f"
 visited = "#5e526a"
 
 [colors.input]
-border = "#131c19"
+border = "#395242"
 border_focus = "#4c685f"
 border_error = "#735959"
 

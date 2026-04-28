@@ -67,17 +67,13 @@ if ask "Setup vicinae?"; then
         echo "Setting up vicinae..."
         ln -sf "$SCRIPT_DIR/vicinae" ~/.config/vicinae
     else
-        echo "vicinae themes already exist"
+        echo "vicinae already exist"
     fi
 fi
 
 if ask "Setup vicinae themes?"; then
-    if [ ! -d ~/.local/share/vicinae/themes ]; then
-        echo "Setting up vicinae..."
-        ln -sf "$SCRIPT_DIR/vicinae-themes" ~/.local/share/vicinae/themes
-    else
-        echo "vicinae themes already exist"
-    fi
+	unlink ~/.local/share/vicinae/themes || rm -rf ~/.local/share/vicinae/themes
+	ln -sf "$SCRIPT_DIR/vicinae-themes" ~/.local/share/vicinae/themes
 fi
 
 # lsd
