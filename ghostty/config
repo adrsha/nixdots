@@ -1,6 +1,6 @@
 # Font Configuration
-font-size = 13
-# font-family = CommitMono Nerd Font
+font-size = 14
+font-family = DankMono Nerd Font
 # adjust-cell-width = 0%
 # adjust-cell-height = 30%
 
@@ -42,6 +42,6 @@ keybind = shift+enter=text:\n
 gtk-single-instance = true
 
 # color generation
-config-file = ./themes/chadtain
+config-file = ./themes/darkblush
 # config-file = ./colors.conf
 custom-shader = ./shaders/ghostty-cursor-shaders/cursor_warp.glsl

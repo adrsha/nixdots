@@ -60,10 +60,10 @@ foreground = "#606F68"
 secondary_foreground = "#606F68"
 
 [colors.list.item.selection]
-background = "#395242"
-foreground = "#131C19"
+background = "#0c1211"
+foreground = "#606F68"
 secondary_background = "#395242"
-secondary_foreground = "#131C19"
+secondary_foreground = "#395242"
 
 [colors.grid.item]
 background = "#2c382d"
