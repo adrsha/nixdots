@@ -12,13 +12,12 @@ ask() {
 }
 
 # Hyprland
-if ask "Setup Hyprland?"; then
-    if [ ! -f ~/.config/hypr/hyprland.conf ]; then
-        echo "Setting up Hyprland..."
-        mkdir -p ~/.config/hypr
-        ln -sf "$SCRIPT_DIR/modules/hyprland.conf" ~/.config/hypr/hyprland.conf
+if ask "Setup hyprland?"; then
+    if [ ! -d ~/.config/hypr ]; then
+        echo "Setting up hyprland..."
+        ln -sf "$SCRIPT_DIR/hypr" ~/.config/hypr
     else
-        echo "Hyprland is already configured."
+        echo "hyprland config already exists."
     fi
 fi
 

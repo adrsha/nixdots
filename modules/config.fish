@@ -1,6 +1,11 @@
 set -U fish_greeting
 fish_vi_key_bindings
 
+# Default theme — only set if not already overridden.
+# To switch themes: source ~/dots/themes/set_theme.fish ~/dots/themes/chadtain
+set --universal THEME_PATH ~/dots/themes/everblush
+source ~/dots/themes/set_theme.fish "$THEME_PATH" >> /dev/null
+
 export DISPLAY=:0
 export RUST_BACKTRACE=full
 export MOZ_ENABLE_WAYLAND=1
@@ -51,6 +56,8 @@ if status is-interactive
         alias ll='ls -lA'
     end
 
+
+    alias theme='source ~/dots/themes/set_theme.fish'
     alias cp='cp -ir'
     alias mv='cp -i'
     alias mkdir='mkdir -p'

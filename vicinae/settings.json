@@ -15,12 +15,13 @@
    "font": {
       "rendering": "native",
       "normal": {
-         "family": "Inter Variable"
+         "family": "AvantGarde LT Medium",
+         "size": 11
       }
    },
    "theme": {
       "dark": {
-         "name": "vicinae",
+         "name": "everblush",
          "icon_theme": "Nordzy-cyan"
       }
    },

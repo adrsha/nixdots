@@ -1,38 +1,38 @@
-user: 230
-group: 187
+user: 15
+group: 7
 permission:
-  read: dark_green
-  write: dark_yellow
-  exec: dark_red
+  read: 14
+  write: 11
+  exec: 9
   exec-sticky: 5
-  no-access: 245
+  no-access: 8
   octal: 6
-  acl: dark_cyan
-  context: cyan
+  acl: 14
+  context: 6
 date:
-  hour-old: green
-  day-old: 36
-  older: 36
+  hour-old: 10
+  day-old: 14
+  older: 14
 size:
-  none: 245
-  small: 229
-  medium: 216
+  none: 8
+  small: 4
+  medium: 3
   large: 172
 inode:
   valid: 13
-  invalid: 245
+  invalid: 8
 links:
   valid: 13
-  invalid: 245
-tree-edge: 245
+  invalid: 8
+tree-edge: 8
 git-status:
-  default: 245
-  unmodified: 245
-  ignored: 245
-  new-in-index: dark_green
-  new-in-workdir: dark_green
-  typechange: dark_yellow
-  deleted: dark_red
-  renamed: dark_green
-  modified: dark_yellow
-  conflicted: dark_red
+  default: 8
+  unmodified: 8
+  ignored: 8
+  new-in-index: 2
+  new-in-workdir: 2
+  typechange: 11
+  deleted: 9
+  renamed: 10
+  modified: 11
+  conflicted: 9

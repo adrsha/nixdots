@@ -1,6 +1,7 @@
 # Font Configuration
-font-size = 14
-font-family = DankMono Nerd Font
+font-size = 13
+font-family = GeistMono Nerd Font
+# font-family = FantasqueSansM Nerd Font
 # adjust-cell-width = 0%
 # adjust-cell-height = 30%
 
@@ -42,6 +43,6 @@ keybind = shift+enter=text:\n
 gtk-single-instance = true
 
 # color generation
-config-file = ./themes/darkblush
+config-file = ./themes/active
 # config-file = ./colors.conf
 custom-shader = ./shaders/ghostty-cursor-shaders/cursor_warp.glsl
