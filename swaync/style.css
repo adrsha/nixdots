@@ -1,60 +1,60 @@
 :root {
-  --cc-bg:                      rgba(20, 27, 30, 1);
+	--cc-bg:                      rgba(3, 3, 2, 1);
 
-  --noti-border-color:          rgba(108, 191, 191, 0.15);
+	--noti-border-color:          rgba(127, 141, 142, 0.15);
 
-  --noti-bg:                    30, 38, 41;
-  --noti-bg-alpha:              1;
-  --noti-bg-darker:             rgb(14, 20, 22);
-  --noti-bg-hover:              rgb(34, 45, 48);
-  --noti-bg-focus:              rgba(108, 191, 191, 0.2);
+	--noti-bg:                    29, 27, 25;
+	--noti-bg-alpha:              1;
+	--noti-bg-darker:             rgb(1, 1, 1);
+	--noti-bg-hover:              rgb(41, 39, 36);
+	--noti-bg-focus:              rgba(127, 141, 142, 0.2);
 
-  --noti-close-bg:              rgb(26, 33, 36);
-  --noti-close-bg-hover:        rgb(38, 49, 52);
+	--noti-close-bg:              rgb(15, 14, 13);
+	--noti-close-bg-hover:        rgb(48, 46, 42);
 
-  --text-color:                 rgb(218, 218, 218);
-  --text-color-disabled:        rgb(59, 66, 68);
+	--text-color:                 rgb(215, 215, 209);
+	--text-color-disabled:        rgb(55, 52, 47);
 
-  --bg-selected:                rgb(103, 176, 232);
+	--bg-selected:                rgb(107, 115, 128);
 
-  --notification-icon-size:       64px;
-  --notification-app-icon-size:   calc(var(--notification-icon-size) / 3);
-  --notification-group-icon-size: 32px;
+	--notification-icon-size:       64px;
+	--notification-app-icon-size:   calc(var(--notification-icon-size) / 3);
+	--notification-group-icon-size: 32px;
 
-  --border:                     0px solid var(--noti-border-color);
-  --border-radius:              12px;
+	--border:                     0px solid var(--noti-border-color);
+	--border-radius:              12px;
 
-  --notification-shadow:
-    0 0 0 1px rgba(0, 0, 0, 0.45),
-    0 2px 6px rgba(0, 0, 0, 0.65);
+	--notification-shadow:
+		0 0 0 1px rgba(0, 0, 0, 0.45),
+		0 2px 6px rgba(0, 0, 0, 0.65);
 
-  --font-size-body:             15px;
-  --font-size-summary:          16px;
+	--font-size-body:             15px;
+	--font-size-summary:          16px;
 
-  --hover-transition:           background 0.15s ease-in-out;
-  --group-collapse-transition:  opacity 400ms ease-in-out;
+	--hover-transition:           background 0.15s ease-in-out;
+	--group-collapse-transition:  opacity 400ms ease-in-out;
 }
 
 /* GTK fallback */
-@define-color cc-bg                  rgba(20, 27, 30, 1);
-@define-color noti-border-color      rgba(108, 191, 191, 0.15);
+@define-color cc-bg                  rgba(3, 3, 2, 1);
+@define-color noti-border-color      rgba(127, 141, 142, 0.15);
 
-@define-color noti-bg                rgba(30, 38, 41, 1);
-@define-color noti-bg-opaque         rgb(30, 38, 41);
-@define-color noti-bg-darker         rgb(14, 20, 22);
+@define-color noti-bg                rgba(29, 27, 25, 1);
+@define-color noti-bg-opaque         rgb(29, 27, 25);
+@define-color noti-bg-darker         rgb(1, 1, 1);
 
-@define-color noti-bg-hover          rgb(34, 45, 48);
-@define-color noti-bg-hover-opaque   rgb(34, 45, 48);
+@define-color noti-bg-hover          rgb(41, 39, 36);
+@define-color noti-bg-hover-opaque   rgb(41, 39, 36);
 
-@define-color noti-bg-focus          rgba(108, 191, 191, 0.2);
+@define-color noti-bg-focus          rgba(127, 141, 142, 0.2);
 
-@define-color noti-close-bg          rgba(26, 33, 36, 1);
-@define-color noti-close-bg-hover    rgba(38, 49, 52, 1);
+@define-color noti-close-bg          rgba(15, 14, 13, 1);
+@define-color noti-close-bg-hover    rgba(48, 46, 42, 1);
 
-@define-color text-color             rgb(218, 218, 218);
-@define-color text-color-disabled    rgb(59, 66, 68);
+@define-color text-color             rgb(215, 215, 209);
+@define-color text-color-disabled    rgb(55, 52, 47);
 
-@define-color bg-selected            rgb(103, 176, 232);
+@define-color bg-selected            rgb(107, 115, 128);
 
 /* =====================================================================
  * styles_rules.css — static swaync selector rules.

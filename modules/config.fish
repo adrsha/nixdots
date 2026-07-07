@@ -1,11 +1,8 @@
 set -U fish_greeting
 fish_vi_key_bindings
 
-# Default theme — only set if not already overridden.
-# To switch themes: source ~/dots/themes/set_theme.fish ~/dots/themes/chadtain
-set --universal THEME_PATH ~/dots/themes/everblush
-source ~/dots/themes/set_theme.fish "$THEME_PATH" >> /dev/null
-
+export BIG_THINKER_URL="https://api.shtuneling.tech"
+export BIG_THINKER_API_KEY="cpa_zO3cW3GHwwAPoTf6hOuUF1G02ZvEj2Kx"
 export DISPLAY=:0
 export RUST_BACKTRACE=full
 export MOZ_ENABLE_WAYLAND=1
@@ -20,6 +17,7 @@ export XCURSOR_SIZE=24
 
 export EDITOR=nvim
 export VISUAL=nvim
+export BROWSER=firefox
 
 export FZF_DEFAULT_OPTS="--height=80% --layout=reverse --info=inline --border --margin=1 --padding=1 --wrap --gap=1 --no-separator --pointer=✦ --color='gutter:-1,fg+:2,fg:7'"
 export HYRCURSOR_THEME="Bibata-Modern_Classic"
@@ -73,7 +71,7 @@ if status is-interactive
     alias ac='nvim ~/.config/alacritty/alacritty.toml'
     alias f='n $(find | fzf)';
     alias o="~/Scripts/launch";
-    alias t="nvim ~/Notes/todo.md";
+    alias t="nvim ~/Notes/index.md";
     alias bat='bat --theme=ansi'
     alias yay='yay --color=auto'
     alias pyv='python venv ./bin/activate.fish'
@@ -190,6 +188,15 @@ function gt
     commandline -f repaint
 
 end
+end
+
+function theme
+    ~/Scripts/theme-set $argv[1]
+    source ~/.config/fish/conf.d/theme_vars.fish
+end
+
+if test -f ~/.config/fish/conf.d/theme_vars.fish
+    source ~/.config/fish/conf.d/theme_vars.fish
 end
 
 zoxide init fish --cmd c| source

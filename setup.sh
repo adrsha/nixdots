@@ -5,84 +5,87 @@ set -e
 # Get directory of this script
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 
+# Mode: pass "init" as the first argument to force-replace existing
+# configs/links without prompting for confirmation on the overwrite.
+#   ./setup.sh init
+MODE="${1:-}"
+
 ask() {
     # ask "Message?" && do_something
     read -rp "$1 [y/N]: " ans
     [[ "$ans" =~ ^[Yy]$ ]]
 }
 
+# link_target <target_path> <source_path> <name>
+# Handles the "does it already exist" check, with init-mode override.
+# Removes any existing file/dir/symlink at target when replacing.
+link_target() {
+    local target="$1"
+    local source="$2"
+    local name="$3"
+
+    if [ -e "$target" ] || [ -L "$target" ]; then
+        if [ "$MODE" == "init" ]; then
+            echo "Replacing existing $name config..."
+            rm -rf "$target"
+            ln -sf "$source" "$target"
+        else
+            echo "$name config already exists."
+        fi
+    else
+        echo "Setting up $name..."
+        ln -sf "$source" "$target"
+    fi
+}
+
 # Hyprland
 if ask "Setup hyprland?"; then
-    if [ ! -d ~/.config/hypr ]; then
-        echo "Setting up hyprland..."
-        ln -sf "$SCRIPT_DIR/hypr" ~/.config/hypr
-    else
-        echo "hyprland config already exists."
-    fi
+    link_target ~/.config/hypr "$SCRIPT_DIR/hypr" "hyprland"
 fi
 
 if ask "Setup ghostty?"; then
-    if [ ! -d ~/.config/ghostty ]; then
-        echo "Setting up ghostty..."
-        ln -sf "$SCRIPT_DIR/ghostty" ~/.config/ghostty
-    else
-        echo "ghostty config already exists."
-    fi
+    link_target ~/.config/ghostty "$SCRIPT_DIR/ghostty" "ghostty"
 fi
 
 # Neovim
 if ask "Setup Neovim?"; then
-    if [ ! -d ~/.config/nvim ]; then
-        echo "Setting up Neovim..."
-        ln -sf "$SCRIPT_DIR/nvim-perf" ~/.config/nvim
-    else
-        echo "Neovim config already exists."
-    fi
+    link_target ~/.config/nvim "$SCRIPT_DIR/nvim-perf" "Neovim"
 fi
 
 # Scripts
 if ask "Setup Scripts folder (clone GitHub repo)?"; then
-    if [ ! -d ~/Scripts ]; then
+    if [ -e ~/Scripts ] || [ -L ~/Scripts ]; then
+        if [ "$MODE" == "init" ]; then
+            echo "Replacing existing ~/Scripts..."
+            rm -rf ~/Scripts
+            git clone https://github.com/adrsha/scripts ~/Scripts
+        else
+            echo "~/Scripts already exists."
+        fi
+    else
         echo "Cloning scripts..."
         git clone https://github.com/adrsha/scripts ~/Scripts
-    else
-        echo "\~/Scripts already exists."
     fi
 fi
 
 # fish
 if ask "Setup fish shell config?"; then
-    if [ ! -f ~/.config/fish/config.fish ]; then
-        echo "Setting up fish..."
-        mkdir -p ~/.config/fish
-        ln -sf "$SCRIPT_DIR/modules/config.fish" ~/.config/fish/config.fish
-    else
-        echo "Fish config already exists."
-    fi
+    mkdir -p ~/.config/fish
+    link_target ~/.config/fish/config.fish "$SCRIPT_DIR/modules/config.fish" "fish"
 fi
 
 if ask "Setup vicinae?"; then
-    if [ ! -d ~/.config/vicinae ]; then
-        echo "Setting up vicinae..."
-        ln -sf "$SCRIPT_DIR/vicinae" ~/.config/vicinae
-    else
-        echo "vicinae already exist"
-    fi
+    link_target ~/.config/vicinae "$SCRIPT_DIR/vicinae" "vicinae"
 fi
 
 if ask "Setup vicinae themes?"; then
-	unlink ~/.local/share/vicinae/themes || rm -rf ~/.local/share/vicinae/themes
-	ln -sf "$SCRIPT_DIR/vicinae-themes" ~/.local/share/vicinae/themes
+    unlink ~/.local/share/vicinae/themes 2>/dev/null || rm -rf ~/.local/share/vicinae/themes
+    ln -sf "$SCRIPT_DIR/vicinae-themes" ~/.local/share/vicinae/themes
 fi
 
 # lsd
 if ask "Setup lsd config?"; then
-    if [ ! -d ~/.config/lsd ]; then
-        echo "Setting up lsd..."
-        ln -sf "$SCRIPT_DIR/lsd" ~/.config/lsd
-    else
-        echo "lsd config already exists."
-    fi
+    link_target ~/.config/lsd "$SCRIPT_DIR/lsd" "lsd"
 fi
 
 # Hardware configuration (only for NixOS)
@@ -94,4 +97,3 @@ if grep -qi "nixos" /etc/os-release 2>/dev/null; then
 else
     echo "Not a NixOS system — skipping hardware configuration."
 fi
-

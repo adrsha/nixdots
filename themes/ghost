@@ -1,5 +1,6 @@
 # monochrome theme
 VARIANT=dark
+WALLPAPER=none
 # base_16
 BASE00=#050505
 BASE01=#0f0f12

@@ -1,5 +1,6 @@
 # nier_automata_light theme
 VARIANT=light
+WALLPAPER=none
 
 # base_16
 BASE00=#cdca9a

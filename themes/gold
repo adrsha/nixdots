@@ -1,5 +1,6 @@
 # ember_sepia theme
 VARIANT=dark
+WALLPAPER=none
 # base_16
 BASE00=#080705
 BASE01=#12100b

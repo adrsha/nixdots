@@ -1,5 +1,6 @@
 # everblush theme
 VARIANT=dark
+WALLPAPER=none
 # Colors sourced from https://github.com/Everblush/everblush
 # bg=#141b1e  lighter_bg=#232a2d  fg=#dadada
 

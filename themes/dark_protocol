@@ -1,5 +1,6 @@
 # nier_automata_dark theme
 VARIANT=dark
+WALLPAPER=none
 
 BASE00=#1e1c10
 BASE01=#2a2719

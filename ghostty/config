@@ -44,5 +44,9 @@ gtk-single-instance = true
 
 # color generation
 config-file = ./themes/active
-# config-file = ./colors.conf
 custom-shader = ./shaders/ghostty-cursor-shaders/cursor_warp.glsl
+
+# Remove old bindings
+keybind = ctrl+equal=unbind
+keybind = ctrl+minus=unbind
+keybind = ctrl+0=unbind

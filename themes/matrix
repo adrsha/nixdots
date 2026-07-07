@@ -1,5 +1,6 @@
 # matrix_green theme
 VARIANT=dark
+WALLPAPER=none
 
 # base_16
 BASE00=#000200

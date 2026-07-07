@@ -1,5 +1,6 @@
 # kanagawa theme
 VARIANT=dark
+WALLPAPER=none
 
 # base_16
 BASE00=#1F1F28

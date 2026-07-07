@@ -1,5 +1,6 @@
 # deep_sea theme — fixed
 VARIANT=dark
+WALLPAPER=none
 
 # base_16
 BASE00=#050708

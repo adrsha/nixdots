@@ -1,5 +1,7 @@
 # terminal_gold theme
 VARIANT=dark
+WALLPAPER=none
+
 # base_16
 BASE00=#000000
 BASE01=#060a06

@@ -1,5 +1,6 @@
 # chadtain theme
 VARIANT=dark
+WALLPAPER=none
 
 # base_16
 BASE00=#131C19
